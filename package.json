@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build && COPY \"CNAME\" \"./build/CNAME\" && COPY \".\\build\\index.html\" \".\\build\\404.html\"",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
