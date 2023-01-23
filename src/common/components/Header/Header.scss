@@ -1,0 +1,77 @@
+@import "src/scss/Vars";
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 100%;
+  background: #121622 url("/images/hoge_header.png") no-repeat top right 20%;
+  background-size: contain;
+
+  .header {
+    padding-top: 5rem;
+    flex-direction: column;
+    height: 863px;
+
+    .header-content {
+      max-width: 550px;
+    }
+
+    .title,
+    .subtitle {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 80px;
+      line-height: 90px;
+      text-align: left;
+      text-shadow:
+        -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white,
+        -1px -1px white, 1px 1px white, -1px 1px white, 1px -1px white;
+    }
+    .subtitle {
+      color: #7E4EFF;
+      text-shadow:
+        -1px 0 #7E4EFF, 0 1px #7E4EFF, 1px 0 #7E4EFF, 0 -1px #7E4EFF,
+        -1px -1px #7E4EFF, 1px 1px #7E4EFF, -1px 1px #7E4EFF, 1px -1px #7E4EFF;
+    }
+    .text {
+      margin-bottom: 1.5rem;
+      line-height: 1.4;
+    }
+
+    .buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.certik-wrapper {
+  margin-top: auto;
+  background: #151515;
+
+  .certik {
+    height: 150px;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.2rem;
+
+    .text {
+      color: white;
+      margin: 0 2rem 0 0;
+    }
+
+    .certik-logo {
+      width: 200px;
+      height: 48px;
+      background: url("/images/certik.png") no-repeat;
+    }
+
+    a {
+      margin-left: auto;
+    }
+  }
+}

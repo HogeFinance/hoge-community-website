@@ -1,0 +1,19 @@
+button.btn-custom {
+  border: 0;
+  box-sizing: border-box;
+  position: absolute;
+  width: 160px;
+  height: 45px;
+
+  background: #FFFFFF;
+  border-radius: 55px;
+
+  transition-duration: .3s;
+  transition-property: transform;
+
+  &:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    transform: scale(0.9);
+  }
+}

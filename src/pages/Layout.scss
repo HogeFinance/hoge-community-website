@@ -1,0 +1,40 @@
+@import "src/scss/Vars";
+
+.page {
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  background: $color-black;
+  min-height: 100vh;
+
+  .content {
+    padding: 10px;
+    max-width: 1120px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.top-pushed {
+  position: absolute;
+  z-index: 10;
+  background: #fff;
+  top: 218px;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.widget-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newspapers {
+  justify-content: space-around;
+}
+

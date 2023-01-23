@@ -1,0 +1,14 @@
+.container {
+  display: flex !important;
+  alignment: center;
+
+  .btn-custom {
+    align-self: flex-end;
+    float: right;
+  }
+}
+
+.message {
+  font-weight: 400;
+  margin: 20px;
+}

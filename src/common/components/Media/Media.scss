@@ -1,0 +1,44 @@
+@import "src/scss/Vars";
+
+.media-wrapper {
+  background: #1a1f2d;
+
+  .media {
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 5rem 0;
+
+    .links {
+      display: flex;
+      justify-content: space-around;
+      padding: 4.5rem 0;
+      align-items: center;
+
+      a.yahoo_finance {
+        background: url("/images/yahoo_finance.png") center;
+        background-size: cover;
+        width: 200px;
+        height: 75px;
+      }
+      a.bloomberg {
+        background: url("/images/bloomberg.png") center;
+        background-size: cover;
+        width: 200px;
+        height: 38px;
+      }
+      a.usa_today {
+        background: url("/images/usa_today.png") center;
+        background-size: cover;
+        width: 200px;
+        height: 72px;
+      }
+    }
+
+    .articles {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+}

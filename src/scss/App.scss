@@ -1,0 +1,68 @@
+@import "~bootstrap/scss/bootstrap";
+@import "Vars";
+
+body {
+  font-family: "Sora", Arial, serif;
+  font-size: 18px;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: $h3;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: $link;
+  transition: 0.5s;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.btn {
+  display: block;
+  padding: 0 2rem;
+  line-height: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 55px;
+  color: white;
+  transition: 0.5s ease;
+  font-weight: 600;
+
+  &:hover {
+    background: #FFFFFF;
+    color: #000000;
+  }
+}
+
+a.btn-secondary {
+  @extend .btn;
+}
+
+a.btn-purple {
+  @extend .btn;
+  background: #7E4EFF;
+}
+
+.separator {
+  flex-grow: 1;
+  width: 100%;
+  height: 1px;
+  background: #31384F;
+  margin: 2rem 0;
+}

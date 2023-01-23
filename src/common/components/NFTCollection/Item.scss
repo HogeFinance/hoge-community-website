@@ -1,0 +1,36 @@
+@import "src/scss/Vars";
+
+.item {
+  display: flex;
+  flex-direction: column;
+  max-width: 370px;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  color: white;
+  background: #1A1F2D;
+  border: 1px solid #31384F;
+  border-radius: 30px;
+
+  .image {
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+    img {
+      max-width:100%;
+      max-height:100%;
+    }
+  }
+
+  .name {
+    margin-bottom: 1.5rem;
+  }
+
+  .text {
+    margin-bottom: 1.5rem;
+  }
+
+  a.button {
+    text-transform: uppercase;
+    align-self: center;
+  }
+}
