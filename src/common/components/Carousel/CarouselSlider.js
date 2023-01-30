@@ -1,52 +1,58 @@
-import React from "react";
+import React, {useEffect} from "react";
+
+import useGetData from "../../../hooks/useGetData";
+
 import Carousel from "react-bootstrap/Carousel";
+import Container from "react-bootstrap/Container";
+import Spinner from "../Spinner/Spinner";
 
 import "./CarouselSlider.scss";
 
-function CarouselSlider() {
+const CarouselSlider = () => {
+
+  const { data, loading, fetchData } = useGetData("data/sliderGaming");
+
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
+
+  if (loading || !data) {
+    return <Spinner size="large" />
+  }
+
   return (
-    <Carousel>
-      <Carousel.Item>
-        <section style={{maxHeight: 320}}>
-          <img
-            className="d-block h-100"
-            src='/E9FSxNCWEAIm6L_-1.mp4-low.gif'
-            alt="First slide"
-            style={{marginLeft: "auto", marginRight: "auto", height: 320}}
-          />
-        </section>
-        <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <section style={{maxHeight: 320}}>
-          <video
-            style={{marginLeft: "auto", marginRight: "auto", height: 320}}
-            className="d-block w-100" autoPlay muted playsInline
-            loop src="/hogesmoke.mp4" />
-        </section>
-        <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <section style={{maxHeight: 320}}>
-          <video
-            style={{marginLeft: "auto", marginRight: "auto", height: 320}}
-            className="d-block w-100" autoPlay muted playsInline
-            loop src="/hogesmoke.mp4" />
-        </section>
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <Container fluid className="carousel-wrapper">
+      <Container className="carousel-container">
+
+        <div className="top">
+          <h3>Gaming</h3>
+          <div className="text">
+            Community eGaming, HOGE style. A decentralized community of professional and amateur gamers that compete in tournaments and build independent games across the metaverses.
+          </div>
+        </div>
+
+        <div className="separator" />
+
+        <Carousel controls>
+          {data.map(({title, text, image}, index) => (
+            <Carousel.Item key={index}>
+              <div className="carousel-content">
+                <div className="carousel-top"><h4>{title}</h4></div>
+                <div className="carousel-bottom">
+                  <div className="text">
+                    <p>{text}</p>
+                  </div>
+                  <div className="image">
+                    <img src={image} />
+                  </div>
+                </div>
+              </div>
+            </Carousel.Item>
+            ))}
+        </Carousel>
+
+      </Container>
+    </Container>
   );
 }
 

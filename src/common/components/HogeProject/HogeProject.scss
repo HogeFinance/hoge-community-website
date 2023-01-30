@@ -12,7 +12,10 @@
       padding: 8rem 0;
 
       .left {
-          max-width: 500px;
+        max-width: 500px;
+        .text {
+          margin-bottom: 3rem;
+        }
       }
       .right {
           background: url("/images/hoge_project.png");

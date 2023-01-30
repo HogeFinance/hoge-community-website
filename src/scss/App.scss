@@ -59,10 +59,16 @@ a.btn-purple {
   background: #7E4EFF;
 }
 
+a {
+  > .icon {
+    margin-left: 0.5rem;
+  }
+}
+
 .separator {
   flex-grow: 1;
   width: 100%;
-  height: 1px;
+  height: 2px;
   background: #31384F;
   margin: 2rem 0;
 }

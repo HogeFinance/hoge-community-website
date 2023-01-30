@@ -1,5 +1,77 @@
+.carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: #121622;
+
+  .carousel-container {
+    justify-content: center;
+    flex-direction: column;
+    padding: 9rem 0;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .carousel {
-  background: black;
   min-height: 350px;
+
+  .carousel-indicators {
+    margin: 0;
+    bottom: -5rem;
+    button {
+      width: 100px;
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 30px;
+    width: 52px;
+    background: rgba(255, 255, 255, 0.3);;
+  }
+  .carousel-control-prev {
+    left: auto;
+    right: 52px;
+    border-radius: 60px 0 0 60px;
+  }
+  .carousel-control-next {
+    border-radius: 0 60px 60px 0;
+  }
+
+  .carousel-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .carousel-top {
+      width: 100%;
+      padding-bottom: 3rem;
+    }
+
+    .carousel-bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+
+      .text {
+        text-align: left;
+        flex: 1;
+      }
+
+      .image {
+        img {
+          border-radius: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          height: 510px;
+        }
+      }
+    }
+  }
 }
 

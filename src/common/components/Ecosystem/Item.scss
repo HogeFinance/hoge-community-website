@@ -1,0 +1,39 @@
+@import "src/scss/Vars";
+
+.item-eco {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  font-size: 1.2rem;
+  color: white;
+  background: #1A1F2D;
+  border: 2px solid #FFF;
+  border-radius: 20px;
+
+  .item-eco-inner {
+    padding: 2rem;
+  }
+
+  .image {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    img {
+      max-width:100%;
+      max-height:100%;
+    }
+  }
+
+  .name {
+    margin-bottom: 1.5rem;
+  }
+
+  .text {
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    .icon {
+      margin-left: 0.5rem;
+    }
+  }
+}

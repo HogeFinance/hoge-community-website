@@ -32,7 +32,7 @@ export const NavbarMenu = (props) => {
             })}
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Offcanvas href="/">
+        <Navbar.Offcanvas href="#">
           <Button />
         </Navbar.Offcanvas>
       </Container>

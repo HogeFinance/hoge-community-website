@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import { ReactComponent as ArrowRight } from '../../icons/arrow-right.svg';
 
 import "./HogeProject.scss";
+import React from "react";
 
 const HogeProject = () => (
   <Container fluid className="hoge-project">
@@ -18,7 +19,8 @@ const HogeProject = () => (
 
             This ‘utility through community’ is what separates Hoge from the rest. It’s what keeps us building, through winters and bull runs. It’s what makes us rally when called upon. It’s what DeFi was always meant to be, and that’s Hoge.
           </div>
-          <a href="#">See What’s Next! View ‘23 Roadmap<span className="icon-arrow"/></a>
+
+          <a href={"#"}>See What’s Next! View ‘23 Roadmap<ArrowRight className="icon" /></a>
         </div>
         <div className="right">
           <div className="image" />
