@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 import "./Item.scss";
@@ -10,7 +9,7 @@ const Item = ({image, name, text, url}) => (
     </div>
     <div className="name">{name}</div>
     <div className="text">{text}</div>
-    <a href={url} className="btn-secondary">View Collection</a>
+    <a href={url} className="btn">View Collection</a>
   </div>
 );
 

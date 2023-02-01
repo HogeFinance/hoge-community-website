@@ -1,40 +1,24 @@
 @import "src/scss/Vars";
 
-.page {
-  width: 100%;
-  margin: 0;
-  font-size: 16px;
-  background: $color-black;
-  min-height: 100vh;
+.layout {
+  &.home {
+    .header-wrapper {
+      background: rgb(125, 78, 254, 0.4);
+    }
+  }
+  &.gaming {
+    .header-wrapper {
+      background: #121622;
+    }
+  }
+  &.about {
+    .header-wrapper {
+      background: rgba(29, 127, 183, 0.4);
+    }
+  }
 
-  .content {
-    padding: 10px;
-    max-width: 1120px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+  .page {
+    width: 100%;
+    min-height: 100vh;
   }
 }
-
-.top-pushed {
-  position: absolute;
-  z-index: 10;
-  background: #fff;
-  top: 218px;
-  width: 100%;
-}
-
-section {
-  width: 100%;
-}
-
-.widget-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.newspapers {
-  justify-content: space-around;
-}
-

@@ -1,5 +1,3 @@
-import React from "react";
-
 import Container from "react-bootstrap/Container";
 
 import "./Media.scss";
@@ -14,7 +12,7 @@ const Media = () => (
         <a href="#" className="usa_today" />
       </div>
       <div className="articles">
-        <a href="#" className="btn-secondary">View Articles</a>
+        <a href="#" className="btn">View Articles</a>
       </div>
     </Container>
   </Container>

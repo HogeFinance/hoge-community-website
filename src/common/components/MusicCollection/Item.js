@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 import { ReactComponent as Play } from '../../icons/play.svg';
 

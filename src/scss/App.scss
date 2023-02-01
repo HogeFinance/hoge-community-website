@@ -5,6 +5,8 @@ body {
   font-family: "Sora", Arial, serif;
   font-size: 18px;
   line-height: normal;
+  background: #121622;
+  color: #FFFFFF;
 }
 
 h1 {
@@ -38,9 +40,9 @@ a {
   box-sizing: border-box;
   text-decoration: none;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid #FFFFFF;
   border-radius: 55px;
-  color: white;
+  color: #FFFFFF;
   transition: 0.5s ease;
   font-weight: 600;
 
@@ -50,14 +52,23 @@ a {
   }
 }
 
-a.btn-secondary {
-  @extend .btn;
-}
-
 a.btn-purple {
   @extend .btn;
   background: #7E4EFF;
 }
+
+a.btn-secondary {
+  @extend .btn;
+  background: #FFFFFF;
+  color: #000000;
+  &:hover {
+    color: #FFFFFF;
+    background: initial;
+    border-color: #FFFFFF;
+  }
+}
+
+
 
 a {
   > .icon {

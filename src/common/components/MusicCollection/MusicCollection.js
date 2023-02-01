@@ -35,7 +35,7 @@ const MusicCollection = () => {
         </div> :
         <>
           <div className="list">
-            {data.map((item) => <Item {...item} />)}
+            {data.map((item, index) => <Item key={index} {...item} />)}
           </div>
         </>
         }

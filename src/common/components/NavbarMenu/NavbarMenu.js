@@ -1,4 +1,3 @@
-import React from "react";
 import _ from "lodash";
 
 import Container from 'react-bootstrap/Container';
@@ -32,9 +31,6 @@ export const NavbarMenu = (props) => {
             })}
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Offcanvas href="#">
-          <Button />
-        </Navbar.Offcanvas>
       </Container>
     </Navbar>
   );

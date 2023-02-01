@@ -35,11 +35,11 @@ const Ecosystem = () => {
           <Spinner size="large" />
         </div> :
         <div className="list">
-          {data.map((item) => <Item {...item} />)}
+          {data.map((item, index) => <Item key={index} {...item} />)}
         </div>}
 
         <div className="more">
-          <a href="#" className="btn-secondary">See More</a>
+          <a href="#" className="btn">See More</a>
         </div>
 
       </Container>

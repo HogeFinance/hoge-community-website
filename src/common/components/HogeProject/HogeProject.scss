@@ -69,20 +69,24 @@
         }
     }
 
+  .tokens-wrapper {
+    background: url("/images/hoge_tokens.png") no-repeat center left 10%;
+
     .tokens {
       justify-content: space-between;
       align-items: center;
       padding: 8rem 0;
 
       .left {
-        background: url("/images/hoge_tokens.png");
         width: 600px;
         height: 600px;
       }
+
       .right {
         max-width: 600px;
-        >.text {
-         margin-bottom: 2rem;
+
+        > .text {
+          margin-bottom: 2rem;
         }
       }
 
@@ -102,6 +106,7 @@
           background: url("/images/unicrypt.png");
           margin-right: 1rem;
         }
+
         .text {
           font-weight: 600;
           font-size: 1.25rem;
@@ -111,56 +116,12 @@
           justify-content: center;
           flex-direction: column;
         }
+
         .icon {
           margin-left: 0.5rem;
         }
       }
     }
-
-  .music-wrapper {
-    background: url("/images/hoge_spacemen.png") no-repeat center left 10%;
   }
 
-  .music {
-    justify-content: space-between;
-    align-items: center;
-    height: 900px;
-
-    .right {
-      max-width: 600px;
-      >.text {
-        margin-bottom: 2rem;
-      }
-    }
-
-    .memes {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      padding: 1.5rem 2rem;
-      flex-direction: row;
-      border: 2px solid #31384F;
-      border-radius: 30px;
-      align-content: center;
-
-      .bull {
-        width: 100px;
-        height: 100px;
-        background: url("/images/bull.png");
-        margin-right: 1rem;
-      }
-      .text {
-        font-weight: 600;
-        font-size: 1.25rem;
-        line-height: 2rem;
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-      }
-      .icon {
-        margin-left: 0.5rem;
-      }
-    }
-  }
 }

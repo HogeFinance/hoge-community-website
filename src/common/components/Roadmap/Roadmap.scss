@@ -5,6 +5,11 @@
   background-size: cover;
   height: 1080px;
   display: flex;
+  flex-direction: column;
+
+  a.roadmap {
+    margin: auto;
+  }
 
   .social-wrapper {
     background: rgba(11, 13, 18, 0.9);
