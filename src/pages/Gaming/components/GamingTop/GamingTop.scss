@@ -1,0 +1,17 @@
+@import "src/scss/Vars";
+
+.gamingtop-wrapper {
+  height: 755px;
+  background: #121622 url("/images/gaming.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+
+  .gamingtop {
+    justify-content: center;
+
+    a.join {
+      position: absolute;
+      bottom: -30px;
+    }
+  }
+}
