@@ -22,7 +22,7 @@ const NFTCollection = () => {
       <Container className="collection">
 
         <div className="top">
-          <h3>Ambassador NFT Collections</h3>
+          <h3>NFT Collections</h3>
           <div className="text">
             HOGE NFTs allow our brand ambassadors to dip their toes into the non fungible world and receive blockchain education while building their brand portfolio up on the web3 side. It’s an everlasting way to always remember the original ambassadors that helped HOGE succeed!
           </div>

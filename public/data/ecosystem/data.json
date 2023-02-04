@@ -1,38 +1,32 @@
 [
   {
-    "name": "Land of Hoge",
+    "name": "HOGE DAO",
+    "text": "HOGE is governed by completely decentralized teams and processes.",
+    "image": "dao.png",
+    "url": "https://snapshot.org/#/hogeinc.eth"
+  },
+  {
+    "name": "GroupLP",
+    "text": "The gamified next-generation LP locking paradigm.",
+    "image": "grouplp.png",
+    "url": "https://optiswap.pro/#pool/hoge"
+  },
+  {
+    "name": "HOGE Store",
+    "text": "HOGE Merch",
+    "image": "merch.png",
+    "url": "https://hoge.store"
+  },
+  {
+    "name": "HOGE Music",
+    "text": "A community driven project thrives on audible creativity. This is the decade that evolves the music industry and for HOGE, it activates right here.",
+    "image": "music.jpg",
+    "url": "https://opensea.io/collection/hoge-music"
+  },  
+  {
+    "name": "HogeSMP",
     "text": "A virtual brand activating play, experience and earn metaverse built in NFT Worlds.",
     "image": "land.jpg",
-    "url": "https://www.gooogle.com"
-  },
-  {
-    "name": "Land of Hoge",
-    "text": "A virtual brand activating play, experience and earn metaverse built in NFT Worlds.",
-    "image": "own.jpg",
-    "url": "https://www.gooogle.com"
-  },
-  {
-    "name": "Land of Hoge",
-    "text": "A virtual brand activating play, experience and earn metaverse built in NFT Worlds.",
-    "image": "ambasador.jpg",
-    "url": "https://www.gooogle.com"
-  },
-  {
-    "name": "Land of Hoge",
-    "text": "A virtual brand activating play, experience and earn metaverse built in NFT Worlds.",
-    "image": "optiswap.jpg",
-    "url": "https://www.gooogle.com"
-  },
-  {
-    "name": "Land of Hoge",
-    "text": "A virtual brand activating play, experience and earn metaverse built in NFT Worlds.",
-    "image": "vault.jpg",
-    "url": "https://www.gooogle.com"
-  },
-  {
-    "name": "Land of Hoge",
-    "text": "A virtual brand activating play, experience and earn metaverse built in NFT Worlds.",
-    "image": "music.jpg",
-    "url": "https://www.gooogle.com"
+    "url": "https://hoge.fun/#servers"
   }
 ]

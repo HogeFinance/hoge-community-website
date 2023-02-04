@@ -18,8 +18,8 @@ const Defi = () => {
             From simple and humble meme token beginnings, to over 20+ projects and protocols deployed and in the works, Hoge continues to culture its mission: utility through community.
           </div>
           <div className="buttons">
-            <a href="https://www.gooogle.com" className="btn-purple">Our ecosystem</a>
-            <a href="https://www.gooogle.com" className="btn">See documentation</a>
+            <a href="/ecosystem" className="btn-purple">Our ecosystem</a>
+            <a href="/docs" className="btn">See documentation</a>
           </div>
         </div>
       </Container>
@@ -27,7 +27,7 @@ const Defi = () => {
         <Container className="certik">
           <div className="text">Full contract audit completed by</div>
           <div className="certik-logo" />
-          <a href="https://www.gooogle.com" className="btn">View Report</a>
+          <a href="https://www.certik.com/projects/hogefinance" className="btn">View Report</a>
         </Container>
       </Container>
     </Container>

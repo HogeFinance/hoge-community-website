@@ -22,7 +22,7 @@ const Ecosystem = () => {
       <Container className="ecosystem">
 
         <div className="top">
-          <h3>Ambassador NFT Collections</h3>
+          <h3>Ecosystem</h3>
           <div className="text">
             New applications, games, and various forms of utility are constantly under development to help benefit the community. See some of our most popular developments below.
           </div>
@@ -37,10 +37,6 @@ const Ecosystem = () => {
         <div className="list">
           {data.map((item, index) => <Item key={index} {...item} />)}
         </div>}
-
-        <div className="more">
-          <a href="#" className="btn">See More</a>
-        </div>
 
       </Container>
     </Container>

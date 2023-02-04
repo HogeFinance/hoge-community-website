@@ -18,7 +18,7 @@ const HogeProject = () => (
             This ‘utility through community’ is what separates Hoge from the rest. It’s what keeps us building, through winters and bull runs. It’s what makes us rally when called upon. It’s what DeFi was always meant to be, and that’s Hoge.
           </div>
 
-          <a href={"#"}>See What’s Next! View ‘23 Roadmap<ArrowRight className="icon" /></a>
+          <a href={"/roadmap"}>See What’s Next! View ‘23 Roadmap<ArrowRight className="icon" /></a>
         </div>
         <div className="right">
           <div className="image" />
@@ -36,13 +36,13 @@ const HogeProject = () => (
         </div>
         <div className="info info-2">
           <div className="image" />
-          <div className="value">100K</div>
+          <div className="value">68K</div>
           <div className="text">Hoge holders
             & counting</div>
         </div>
         <div className="info info-3">
           <div className="image" />
-          <div className="value">41%</div>
+          <div className="value">39.7%</div>
           <div className="text">Deflationary tokens
             left in circulation</div>
         </div>
@@ -60,10 +60,10 @@ const HogeProject = () => (
             As part of the deflationary aspect of the token, a 2% burn and redistribution tax applies to every transaction. That tax is split between a burn function (forever removing tokens out of circulation), and a redistribution action that gives back to the holders. That’s it. No taxes for marketing, team, or dev wallets exist.
           </div>
           <div className="funds">
-            <div className="unicrypt" />
+            <div className="optivault" />
             <div className="text">
-              <span>HOGE Liquidity is LOCKED via Unicrypt</span>
-              <a href="#">See The Funds<ArrowRight className="icon" /></a>
+              <span>HOGE Liquidity is LOCKED via OptiVaults</span>
+              <a href="https://optiswap.pro/#vault/0xfAd45E47083e4607302aa43c65fB3106F1cd7607">See The Funds<ArrowRight className="icon" /></a>
             </div>
           </div>
         </div>

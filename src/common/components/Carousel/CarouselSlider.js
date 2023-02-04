@@ -25,9 +25,9 @@ const CarouselSlider = () => {
       <Container className="carousel-container">
 
         <div className="top">
-          <h3>Gaming</h3>
+          <h3>Featured Projects</h3>
           <div className="text">
-            Community eGaming, HOGE style. A decentralized community of professional and amateur gamers that compete in tournaments and build independent games across the metaverses.
+            Community DeFi protocols and eGaming, HOGE style.
           </div>
         </div>
 

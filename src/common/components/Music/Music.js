@@ -10,7 +10,7 @@ const Music = () => (
         <div className="image" />
       </div>
       <div className="right">
-        <h3>Music, Memes, and NFTss</h3>
+        <h3>Music, Memes, and NFTs</h3>
         <div className="text">
           With community focus comes community talent. We’ve seen exceptional work being done in the music, art, meme, and NFT space by talented HOGE members. These works were done in true DeFi spirits, where the sweat from those building would push progress forward not just for them, but for everyone in HOGE collectively.
           <br /><br />
