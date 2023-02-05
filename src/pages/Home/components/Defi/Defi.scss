@@ -8,6 +8,16 @@
   background: #121622 url("/images/hoge_defi.png") no-repeat top -100px right 20%;
   background-size: cover;
 
+  @include mobile {
+    height: 1300px;
+    left: 0;
+    object-fit: cover;
+    // position: absolute;
+    top: 0;
+    background-size: auto 607px;
+    background-position-y: initial;
+  }
+
   .buy {
     position: absolute;
     top: 1rem;
@@ -21,9 +31,23 @@
     padding-top: 5rem;
     flex-direction: column;
 
+    @include mobile {
+      padding-left: unset;
+    }
+
     .defi-content {
       max-width: 550px;
       margin-bottom: 6rem;
+
+      @include mobile {
+        display: flex;
+        flex-direction: column;
+        min-height: 541px;
+        position: relative;
+        top: 522px;
+        width: 354px;
+        gap: 14px;
+      }
     }
 
     .title,
@@ -36,6 +60,15 @@
       text-shadow:
         -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white,
         -1px -1px white, 1px 1px white, -1px 1px white, 1px -1px white;
+
+      @include mobile {
+        font-size: 50px;
+        line-height: 150%;
+        line-height: 59px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: -5px;
+      }
     }
     .subtitle {
       color: #7E4EFF;
@@ -46,6 +79,12 @@
     .text {
       margin-bottom: 1.5rem;
       line-height: 1.4;
+
+      @include mobile {
+        font-size: 16px;
+        text-align: center;
+        width: 350px;
+      }
     }
 
     .buttons {
@@ -54,6 +93,14 @@
       justify-content: space-around;
       text-transform: uppercase;
       font-size: 1.1rem;
+
+      @include mobile {
+        flex-direction: column;
+        gap: 20px;
+        width: 270px;
+        align-items: center;
+        align-self: center;
+      }
     }
   }
 }

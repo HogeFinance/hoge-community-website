@@ -5,3 +5,9 @@ $color-blue: blue;
 $color-black: black;
 $h3: #F2BE22;
 $link: #37CDFC;
+
+@mixin mobile {
+  @media (max-width: 768px) {
+      @content;
+  }
+}

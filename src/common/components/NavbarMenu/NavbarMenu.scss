@@ -1,10 +1,17 @@
-.container {
-  display: flex !important;
-  alignment: center;
+@import "src/scss/Vars";
 
-  .btn-custom {
-    align-self: flex-end;
-    float: right;
+.site-navigation {
+  @include mobile {
+    width: 100vw;
+  }
+  .container {
+    display: flex !important;
+    alignment: center;
+
+    .btn-custom {
+      align-self: flex-end;
+      float: right;
+    }
   }
 }
 
