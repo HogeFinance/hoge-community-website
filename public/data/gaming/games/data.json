@@ -1,0 +1,62 @@
+{
+  "Trending": [
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game1.jpg",
+      "url": "www.google.com"
+    },
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game1.jpg",
+      "url": "www.google.com"
+    },
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game1.jpg",
+      "url": "www.google.com"
+    }
+  ],
+  "Browser": [
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game2.jpg",
+      "url": "www.google.com"
+    },
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game2.jpg",
+      "url": "www.google.com"
+    },
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game2.jpg",
+      "url": "www.google.com"
+    }
+  ],
+  "Mobile": [
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game3.jpg",
+      "url": "www.google.com"
+    },
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game3.jpg",
+      "url": "www.google.com"
+    },
+    {
+      "name": "HOGE Game",
+      "text": "An intuitive platform that is user friendly and provides the ability to own your smart contracts.",
+      "image": "game3.jpg",
+      "url": "www.google.com"
+    }
+  ]
+}

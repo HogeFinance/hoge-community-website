@@ -1,0 +1,44 @@
+@import "src/scss/Vars";
+
+.item-officer {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  padding: 1.5rem;
+  border: 1px solid #31384F;
+  border-radius: 30px;
+  background: #1A1F2D;
+
+  .image {
+    align-self: center;
+    margin-bottom: 1.5rem;
+    img {
+      max-width:100%;
+      max-height:100%;
+      border: 1px solid #fff;
+      border-radius: 50%;
+    }
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    svg {
+      margin-left: 0.5rem;
+    }
+  }
+  .title-off {
+    font-size: 1rem;
+  }
+  .telegram {
+    margin: 0.5rem 0 1.5rem 0;
+    svg {
+      height: 25px;
+      width: 25px;
+      margin-right: 0.5rem;
+    }
+  }
+  .text {
+    margin-bottom: 1.25rem;
+  }
+}

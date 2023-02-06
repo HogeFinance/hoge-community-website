@@ -11,10 +11,5 @@ export const getData = (path) =>
       return response.json();
     })
     .then((data) => {
-      return data.map((item) => (
-        {
-          ...item,
-          ...(item.image && { image: `${path}/images/${item.image}` })
-        }
-      ));
+      return data
     })

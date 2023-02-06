@@ -8,8 +8,15 @@ const useGetData = (path) => {
   const fetchData = useCallback(async () => {
     setLoading(true);
 
-    const data = await getData(path);
-    setData(data);
+    const res = await getData(path);
+    const resWithUrls = res.map((item) => (
+      {
+        ...item,
+        ...(item.image && { image: `${path}/images/${item.image}` })
+      }
+    ));
+
+    setData(resWithUrls);
 
     setLoading(false);
 

@@ -8,7 +8,6 @@ import Item from "./Item";
 
 import "./Ecosystem.scss";
 
-
 const Ecosystem = () => {
 
   const { data, loading, fetchData } = useGetData("data/ecosystem");
@@ -31,12 +30,13 @@ const Ecosystem = () => {
         <div className="separator" />
 
         {loading || !data ?
-        <div className="center">
-          <Spinner size="large" />
-        </div> :
-        <div className="list">
-          {data.map((item, index) => <Item key={index} {...item} />)}
-        </div>}
+          <div className="center">
+            <Spinner size="large" />
+          </div> :
+          <div className="list">
+            {data.map((item, index) => <Item key={index} {...item} />)}
+          </div>
+        }
 
       </Container>
     </Container>

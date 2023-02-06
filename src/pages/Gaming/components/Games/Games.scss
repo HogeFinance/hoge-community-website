@@ -1,0 +1,43 @@
+@import "src/scss/Vars";
+
+.page.gaming {
+  .games-wrapper:nth-child(even) {
+    background-color: #1A1F2D;
+  }
+}
+
+.gaming-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: #121622;
+
+  .gaming-header {
+    flex-direction: column;
+    padding: 8rem 0 0;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 3rem;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+    }
+  }
+}
+
+.games-wrapper {
+  .games {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0;
+
+    .list {
+      display: flex;
+      flex-direction: row;
+      gap: 4rem;
+    }
+  }
+}

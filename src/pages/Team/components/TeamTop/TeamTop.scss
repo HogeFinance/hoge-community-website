@@ -1,0 +1,25 @@
+@import "src/scss/Vars";
+
+.team-top-wrapper {
+  background: #121622 url("/images/header_blue.png") no-repeat bottom center;
+  padding-bottom: 8rem !important;
+
+  .team-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+
+
+    h1 {
+      margin-bottom: 2rem;
+    }
+
+    .text {
+      max-width: 810px;
+      margin-bottom: 2rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+  }
+}

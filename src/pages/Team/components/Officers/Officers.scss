@@ -1,0 +1,25 @@
+@import "src/scss/Vars";
+
+.officers-wrapper {
+  .officers {
+    flex-direction: column;
+    padding: 5rem 0;
+    &#Leadership {
+      padding-top: 0;
+    }
+
+    .title {
+      font-size: 2rem;
+    }
+
+    .separator {
+      margin-top: 0;
+    }
+
+    .list {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+    }
+  }
+}

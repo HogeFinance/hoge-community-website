@@ -13,11 +13,10 @@
 
   .image {
     margin-bottom: 1.5rem;
-    border-radius: 20px;
-    overflow: hidden;
     img {
       max-width:100%;
       max-height:100%;
+      border-radius: 20px;
     }
   }
 
@@ -29,8 +28,8 @@
     margin-bottom: 1.5rem;
   }
 
-  a.button {
+  a.btn {
     text-transform: uppercase;
-    align-self: center;
+    margin-top: auto;
   }
 }

@@ -10,7 +10,13 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.1;
+  text-shadow:
+    -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white,
+    -1px -1px white, 1px 1px white, -1px 1px white, 1px -1px white;
 }
 
 h2 {
@@ -23,13 +29,22 @@ h3 {
   margin-bottom: 1.5rem;
 }
 
+h5 {
+  font-size: 1;
+  color: $h3;
+}
+
 a {
   color: $link;
   transition: 0.5s;
 }
 
+.container {
+  display: flex;
+}
+
 .container-fluid {
-  padding: 0 !important;
+  padding: 0;
 }
 
 .btn {
@@ -45,6 +60,10 @@ a {
   color: #FFFFFF;
   transition: 0.5s ease;
   font-weight: 600;
+  &.small {
+    height: 45px;
+    line-height: 45px;
+  }
 
   &:hover {
     background: #FFFFFF;
@@ -71,8 +90,6 @@ a.btn-secondary {
   }
 }
 
-
-
 a {
   > .icon {
     margin-left: 0.5rem;
@@ -85,4 +102,12 @@ a {
   height: 2px;
   background: #31384F;
   margin: 2rem 0;
+}
+
+.separator-gradient {
+  flex-grow: 1;
+  width: 100%;
+  height: 2px;
+  margin: 2rem 0;
+  background: linear-gradient(to left, #2B1871 0%, #2094D4 45%, #DC70F0 100%);
 }

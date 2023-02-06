@@ -8,12 +8,12 @@ const Defi = () => {
     <Container fluid className="defi-wrapper">
       <Container className="defi">
         <div className="defi-content">
-          <div className="title">
+          <h1 className="title">
             The Original. Pure DeFi.
-          </div>
-          <div className="subtitle">
+          </h1>
+          <h1 className="subtitle">
             Community Powered.
-          </div>
+          </h1>
           <div className="text">
             From simple and humble meme token beginnings, to over 20+ projects and protocols deployed and in the works, Hoge continues to culture its mission: utility through community.
           </div>
