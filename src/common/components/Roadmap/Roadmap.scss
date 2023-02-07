@@ -41,3 +41,10 @@
     }
   }
 }
+
+@include tablet {
+  .roadmap-wrapper {
+    height: 600px;
+  }
+}
+

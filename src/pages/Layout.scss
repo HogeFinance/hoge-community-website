@@ -1,11 +1,11 @@
 @import "src/scss/Vars";
 
 .layout {
-  @include mobile {
-    width: 430px;
-    align-items: center;
-    position: absolute;
-  }
+  //@include mobile {
+  //  width: 430px;
+  //  align-items: center;
+  //  position: absolute;
+  //}
 
   &.home {
     .header-wrapper {

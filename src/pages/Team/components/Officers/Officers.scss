@@ -19,7 +19,19 @@
     .list {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       gap: 1rem;
+    }
+  }
+}
+
+@include tablet {
+  .officers-wrapper {
+    .officers {
+      padding: 2rem 0;
+      &#Leadership {
+        padding-top: 2rem;
+      }
     }
   }
 }

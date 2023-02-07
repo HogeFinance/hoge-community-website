@@ -39,12 +39,12 @@ a {
   transition: 0.5s;
 }
 
-.container {
-  display: flex;
-}
-
 .container-fluid {
   padding: 0;
+}
+
+.container {
+  display: flex;
 }
 
 .btn {
@@ -110,4 +110,12 @@ a {
   height: 2px;
   margin: 2rem 0;
   background: linear-gradient(to left, #2B1871 0%, #2094D4 45%, #DC70F0 100%);
+}
+
+
+@include tablet {
+  .container {
+    width: 92%;
+    margin: 0 4%;
+  }
 }

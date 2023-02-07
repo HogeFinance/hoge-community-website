@@ -10,7 +10,6 @@
     align-items: center;
     padding: 5rem 0;
 
-
     h1 {
       margin-bottom: 2rem;
     }
@@ -20,6 +19,18 @@
       margin-bottom: 2rem;
       text-align: center;
       line-height: 1.5;
+    }
+  }
+}
+
+@include tablet {
+  .team-top-wrapper {
+    padding-bottom: 0 !important;
+    .team-top {
+      padding: 2rem 0;
+      h1 {
+        text-align: center;
+      }
     }
   }
 }

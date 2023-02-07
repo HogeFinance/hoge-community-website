@@ -23,6 +23,7 @@
     .links {
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 3rem;
     }
   }
@@ -38,6 +39,31 @@
       display: flex;
       flex-direction: row;
       gap: 4rem;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@include tablet {
+  .gaming-header-wrapper {
+    .gaming-header {
+      padding: 4rem 0 0;
+    }
+  }
+
+  .games-wrapper {
+    .games {
+      padding: 4rem 0;
+
+      h3 {
+        text-align: center;
+      }
+
+      .list {
+        gap: 2rem;
+        justify-content: center;
+      }
     }
   }
 }
