@@ -17,3 +17,8 @@ $link: #37CDFC;
     @content;
   }
 }
+
+@mixin pad($top, $bottom: $top) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}

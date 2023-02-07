@@ -11,3 +11,15 @@
     line-height: 45px;
   }
 }
+
+@include tablet {
+  .header-wrapper {
+
+    .buy {
+      left: 50%;
+      width: 9rem;
+      padding: 0 1rem;
+      transform: translate(-50%, 0);
+    }
+  }
+}

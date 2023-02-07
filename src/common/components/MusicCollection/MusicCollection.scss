@@ -1,19 +1,5 @@
 @import "src/scss/Vars";
 
 .collection-wrapper {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  background: #121622;
 
-  .collection{
-    flex-direction: column;
-    padding: 9rem 0;
-
-    .list {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-    }
-  }
 }

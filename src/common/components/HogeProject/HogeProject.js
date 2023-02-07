@@ -21,30 +21,33 @@ const HogeProject = () => (
           <a href={"/roadmap"}>See What’s Next! View ‘23 Roadmap<ArrowRight className="icon" /></a>
         </div>
         <div className="right">
+          <img alt="Hoge" src="/images/hoge_project.png" />
           <div className="image" />
         </div>
       </Container>
     </Container>
 
     <Container fluid>
-      <Container className="infos">
-        <div className="info info-1">
-          <div className="image" />
-          <div className="value">2%</div>
-          <div className="text">Burn & redistribution
-            per transaction</div>
-        </div>
-        <div className="info info-2">
-          <div className="image" />
-          <div className="value">68K</div>
-          <div className="text">Hoge holders
-            & counting</div>
-        </div>
-        <div className="info info-3">
-          <div className="image" />
-          <div className="value">39.7%</div>
-          <div className="text">Deflationary tokens
-            left in circulation</div>
+      <Container>
+        <div className="infos">
+          <div className="info info-1">
+            <div className="image" />
+            <div className="value">2%</div>
+            <div className="text">Burn & redistribution
+              per transaction</div>
+          </div>
+          <div className="info info-2">
+            <div className="image" />
+            <div className="value">68K</div>
+            <div className="text">Hoge holders
+              & counting</div>
+          </div>
+          <div className="info info-3">
+            <div className="image" />
+            <div className="value">39.7%</div>
+            <div className="text">Deflationary tokens
+              left in circulation</div>
+          </div>
         </div>
       </Container>
     </Container>

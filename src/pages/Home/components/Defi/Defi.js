@@ -29,6 +29,7 @@ const Defi = () => {
           <div className="certik-logo" />
           <a href="https://www.certik.com/projects/hogefinance" className="btn">View Report</a>
         </Container>
+        <div className="separator-gradient" />
       </Container>
     </Container>
   );

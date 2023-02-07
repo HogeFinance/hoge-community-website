@@ -8,12 +8,29 @@
 
   .collection{
     flex-direction: column;
-    padding: 9rem 0;
+    @include pad(9rem);
 
     .list {
       display: flex;
       width: 100%;
-      justify-content: space-between;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+}
+
+@include tablet {
+  .collection-wrapper {
+
+    .collection{
+      @include pad(3rem);
+
+      .list {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+      }
     }
   }
 }

@@ -49,3 +49,14 @@
     }
   }
 }
+
+@include tablet {
+  .music-wrapper {
+    background-size: auto 500px;
+    background-position: center -80px;
+    .music {
+      padding-top: 400px;
+      height: auto;
+    }
+  }
+}

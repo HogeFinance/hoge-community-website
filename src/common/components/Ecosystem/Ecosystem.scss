@@ -9,7 +9,7 @@
   .ecosystem {
     justify-content: center;
     flex-direction: column;
-    padding: 9rem 0;
+    @include pad(9rem, 0);
 
     .top {
       display: flex;
@@ -27,7 +27,7 @@
       flex-wrap: wrap;
       width: 100%;
       justify-content: center;
-      gap: 1.5rem;
+      gap: 1rem;
       margin-bottom: 6rem;
     }
 
@@ -35,6 +35,19 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+    }
+  }
+}
+
+@include tablet {
+  .ecosystem-wrapper {
+
+    .ecosystem{
+      @include pad(3rem);
+
+      .list {
+        margin-bottom: 0;
+      }
     }
   }
 }

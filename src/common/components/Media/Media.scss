@@ -42,3 +42,22 @@
     }
   }
 }
+
+@include tablet {
+  .media-wrapper {
+
+    .media {
+      padding: 2rem 0;
+
+      h3 {
+        margin-bottom: 2.5rem;
+      }
+
+      .links {
+        padding: 0;
+        flex-direction: column;
+        gap: 3rem;
+      }
+    }
+  }
+}

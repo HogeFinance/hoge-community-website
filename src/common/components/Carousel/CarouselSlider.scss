@@ -1,13 +1,15 @@
+@import "src/scss/Vars";
+
 .carousel-wrapper {
   display: flex;
   flex-direction: column;
   color: white;
-  background: #121622;
+  background: #1A1F2D;
 
   .carousel-container {
     justify-content: center;
     flex-direction: column;
-    padding: 9rem 0;
+    @include pad(9rem);
   }
 
   .top {
@@ -57,6 +59,7 @@
       flex-direction: row;
       justify-content: center;
       gap: 2rem;
+      flex-wrap: wrap;
 
       .text {
         text-align: left;
@@ -68,10 +71,42 @@
           border-radius: 35px;
           margin-left: auto;
           margin-right: auto;
-          height: 510px;
+          max-width: 100%;
+          max-height: 500px;
         }
       }
     }
   }
 }
 
+@include tablet {
+  .carousel-wrapper {
+
+    .carousel-container {
+      @include pad(3rem);
+      padding-bottom: 5rem;
+    }
+  }
+
+  .carousel {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+
+    .carousel-indicators {
+      bottom: -2rem;
+    }
+
+    .carousel-content {
+      .carousel-bottom {
+        .text {
+          text-align: center;
+          order: 2;
+        }
+      }
+    }
+
+  }
+}
