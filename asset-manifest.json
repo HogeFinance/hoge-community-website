@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6aeb9d68.css",
-    "main.js": "/static/js/main.9c942a4b.js",
-    "static/js/594.f18e9a98.chunk.js": "/static/js/594.f18e9a98.chunk.js",
+    "main.css": "/static/css/main.67e8bdeb.css",
+    "main.js": "/static/js/main.fa7209e6.js",
+    "static/js/594.550cdea6.chunk.js": "/static/js/594.550cdea6.chunk.js",
     "static/js/787.749cafa7.chunk.js": "/static/js/787.749cafa7.chunk.js",
     "static/media/hoge_footer.png": "/static/media/hoge_footer.2e68282e6ac9845c5c59.png",
     "static/media/header_blue.png": "/static/media/header_blue.a6a8c812f1ff01e3de13.png",
@@ -10,24 +10,27 @@
     "static/media/hoge_defi.png": "/static/media/hoge_defi.5e15d67c815614841a7d.png",
     "static/media/hoge_tokens.png": "/static/media/hoge_tokens.59992d1d4658d67294af.png",
     "static/media/hoge_spacemen.png": "/static/media/hoge_spacemen.3b8a40e5e97b276c915e.png",
+    "static/media/discord.png": "/static/media/discord.87103b7fb8f04ea4d3ef.png",
+    "static/media/reddit.png": "/static/media/reddit.798609897629e61fbcd3.png",
+    "static/media/twitter.png": "/static/media/twitter.570a83358b62aadac17a.png",
     "static/media/sora-all-400-normal.woff": "/static/media/sora-all-400-normal.4e0eb869ce00863294f7.woff",
+    "static/media/telegram.png": "/static/media/telegram.04c3d4028b28944f72b9.png",
     "static/media/sora-latin-400-normal.woff2": "/static/media/sora-latin-400-normal.a12f18b2fa36ee4a1216.woff2",
     "static/media/bull.png": "/static/media/bull.555f978ef812dbff29b1.png",
     "static/media/sora-latin-ext-400-normal.woff2": "/static/media/sora-latin-ext-400-normal.256bd69d954f04ef5548.woff2",
-    "static/media/insta.svg": "/static/media/insta.b825fdc9c204ed2909b85dc3b2ccceb2.svg",
+    "static/media/insta.svg": "/static/media/insta.a8aeeb7270bbe92a6a6fcfeeb0c10625.svg",
     "static/media/art-blobby.svg": "/static/media/art-blobby.a77e2429794cd5663393.svg",
-    "static/media/telegram.svg": "/static/media/telegram.1a858cbc52545d44c26048cf7d7ebed1.svg",
-    "static/media/twitter.svg": "/static/media/twitter.7c0e507d6c296954bd1e3c48379c9ded.svg",
+    "static/media/telegram.svg": "/static/media/telegram.54cb3419cf372e3538db5480c919a312.svg",
     "index.html": "/index.html",
-    "static/media/play.svg": "/static/media/play.47415b0a84082957f3360683dd532f7f.svg",
-    "static/media/check.svg": "/static/media/check.273c539b69fd4d75af01e89540adaa8d.svg",
-    "static/media/arrow-right.svg": "/static/media/arrow-right.9994561c238705c4d0e5e24fc095d4d2.svg",
-    "main.6aeb9d68.css.map": "/static/css/main.6aeb9d68.css.map",
-    "main.9c942a4b.js.map": "/static/js/main.9c942a4b.js.map",
+    "static/media/play.svg": "/static/media/play.926510c254dd630b1601550337e81cc4.svg",
+    "static/media/check.svg": "/static/media/check.e36678aad03ee64bf82758dde4e62e59.svg",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.942dd60e6fa687932e161dd064ff1de0.svg",
+    "main.67e8bdeb.css.map": "/static/css/main.67e8bdeb.css.map",
+    "main.fa7209e6.js.map": "/static/js/main.fa7209e6.js.map",
     "787.749cafa7.chunk.js.map": "/static/js/787.749cafa7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aeb9d68.css",
-    "static/js/main.9c942a4b.js"
+    "static/css/main.67e8bdeb.css",
+    "static/js/main.fa7209e6.js"
   ]
 }
