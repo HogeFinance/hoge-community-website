@@ -38,7 +38,7 @@ const Footer = () => {
           <a href={dextoolsUrl}>DexTools</a>
         </div>
         <div className="note">
-          This website does not constitute an offer to purchase or solicitation to sell, nor is it a recommendation to buy or sell, any token or other product. Purchasing and selling tokens is inherently risky and holders must bear their risk of loss. Neither the authors of this website nor any participants in the Floki Inu project accept any liability for losses or taxes that holders, purchasers or sellers of Floki Inu may incur. The value of Floki Inu may decrease and may be highly volatile.This website is not directed towards any person located in a jurisdiction where purchasing, selling or holding Floki Inu is prohibited or regulated. Consult your local laws before transacting in any cryptocurrency.
+          This website does not constitute an offer to purchase or solicitation to sell, nor is it a recommendation to buy or sell, any token or other product. Purchasing and selling tokens is inherently risky and holders must bear their risk of loss. Neither the authors of this website nor any participants in the project accept any liability for losses or taxes that holders, purchasers or sellers may incur. The value may decrease and may be highly volatile.This website is not directed towards any person located in a jurisdiction where purchasing, selling or holding tokens is prohibited or regulated. Consult your local laws before transacting in any cryptocurrency.
         </div>
       </Container>
     </Container>
