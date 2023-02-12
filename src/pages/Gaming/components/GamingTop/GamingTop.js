@@ -7,7 +7,8 @@ const GamingTop = () => {
   return (
     <Container fluid className="gamingtop-wrapper">
       <Container className="gamingtop">
-        <a href="https://hoge.fun/#servers" className="btn-purple join">HOGE.FUN</a>
+        <a href="https://hoge.fun/#servers" className="btn-purple join" target="_blank" rel="noreferrer">
+          HOGE.FUN</a>
       </Container>
     </Container>
   );

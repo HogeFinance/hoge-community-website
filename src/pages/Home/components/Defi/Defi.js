@@ -17,7 +17,7 @@ const Defi = () => {
           <div className="text">
             From simple and humble meme token beginnings, to over 20+ projects and protocols deployed and in the works, Hoge continues to culture its mission: utility through community.
           </div>
-          <div className="buttons" hidden="true">
+          <div className="buttons" hidden={true}>
             <a href="/ecosystem" className="btn-purple">Our ecosystem</a>
             <a href="/docs" className="btn">See documentation</a>
           </div>
