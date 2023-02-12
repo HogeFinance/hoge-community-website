@@ -24,11 +24,14 @@ export default function SiteRoutes() {
 }
 
 export const menuItems = [
-  { page: "home" },
-  { page: "team" },
+  { page: "home" },  
   { page: "gaming" },
+  { page: "about" },
+  /*
+  { page: "team" },
   {
     k: "about",
     pages: ["about", "roadmap"]
   }
+  */
 ];

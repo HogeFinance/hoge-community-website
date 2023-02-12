@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import Container from "react-bootstrap/Container";
 import { yahoo, bloomberg, usatoday } from "common/links";
 import "./Media.scss";
