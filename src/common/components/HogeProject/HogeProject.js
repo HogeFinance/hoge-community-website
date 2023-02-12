@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
 import { ReactComponent as ArrowRight } from '../../icons/arrow-right.svg';
-
+import { optivaultUrl } from "common/links";
 import "./HogeProject.scss";
 
 const HogeProject = () => (
@@ -66,7 +66,7 @@ const HogeProject = () => (
             <div className="optivault" />
             <div className="text">
               <span>HOGE Liquidity is LOCKED via OptiVaults</span>
-              <a href="https://optiswap.pro/#vault/0xfAd45E47083e4607302aa43c65fB3106F1cd7607">See The Funds<ArrowRight className="icon" /></a>
+              <a href={optivaultUrl}>See The Funds<ArrowRight className="icon" /></a>
             </div>
           </div>
         </div>

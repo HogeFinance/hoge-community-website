@@ -43,7 +43,7 @@ const CarouselSlider = () => {
                     <p>{text}</p>
                   </div>
                   <div className="image">
-                    <img src={image} />
+                    <img src={image} alt={image} />
                   </div>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-
+import { snapshotUrl } from "common/links";
 import "./TeamTop.scss";
 
 const TeamTop = () => {
@@ -11,7 +11,7 @@ const TeamTop = () => {
         <div className="text">
           Due to the original core management team not having the available time and capacity to devote to the project, a new management team, drawn from the community, was voted in by the community itself via a ‘Snapshot’ on 14th April 2022.
         </div>
-        <a href="https://www.gooogle.com" className="btn snapshot">View Snapshot</a>
+        <a href={snapshotUrl} className="btn snapshot" target="_blank" rel="noreferrer">View Snapshot</a>
 
       </Container>
       <div className="separator-gradient" />

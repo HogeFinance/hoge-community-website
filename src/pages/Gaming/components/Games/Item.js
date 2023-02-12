@@ -5,7 +5,7 @@ import "./Item.scss";
 const Item = ({image, name, text, url}) => (
   <div className="item-game">
     <a href={url} className="image">
-      <img src={image} />
+      <img src={image} alt={image} />
     </a>
 
     <div className="tem-game-inner">

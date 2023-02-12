@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-
+import { certikUrl } from "../../../../common/links";
 import "./Defi.scss";
 
 const Defi = () => {
@@ -17,7 +17,7 @@ const Defi = () => {
           <div className="text">
             From simple and humble meme token beginnings, to over 20+ projects and protocols deployed and in the works, Hoge continues to culture its mission: utility through community.
           </div>
-          <div className="buttons">
+          <div className="buttons" hidden="true">
             <a href="/ecosystem" className="btn-purple">Our ecosystem</a>
             <a href="/docs" className="btn">See documentation</a>
           </div>
@@ -27,7 +27,7 @@ const Defi = () => {
         <Container className="certik">
           <div className="text">Full contract audit completed by</div>
           <div className="certik-logo" />
-          <a href="https://www.certik.com/projects/hogefinance" className="btn">View Report</a>
+          <a href={certikUrl} className="btn">View Report</a>
         </Container>
         <div className="separator-gradient" />
       </Container>

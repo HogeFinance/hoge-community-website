@@ -7,7 +7,7 @@ const Item = ({image, name, artist, url}) => (
   <div className="item-music">
     <a className="image" href={url}>
       <Play className="play" />
-      <img src={image} />
+      <img src={image} alt={image} />
     </a>
     <div className="name"><a href={url}>{name}</a></div>
     <div className="artist">{artist}</div>

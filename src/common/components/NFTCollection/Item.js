@@ -5,7 +5,7 @@ import "./Item.scss";
 const Item = ({image, name, text, url}) => (
   <div className="item">
     <div className="image">
-      <img src={image} />
+      <img src={image} alt={image} />
     </div>
     <div className="name">{name}</div>
     <div className="text">{text}</div>

@@ -8,13 +8,13 @@ import "./Item.scss";
 const Item = ({image, name, checked, title, telegram, background, history, benefit}) => (
   <div className="item-officer">
     <div className="image">
-      <img src={image} />
+      <img src={image} alt={image} />
     </div>
     <div className="name">{name}
       {checked && <Check />}
     </div>
     <div className="title-off">{title}</div>
-    <a href={`https://telegram.me/${telegram}`} target="_blank" className="telegram"><Telegram />@{telegram}</a>
+    <a href={`https://telegram.me/${telegram}`} target="_blank" className="telegram" rel="noreferrer"><Telegram />@{telegram}</a>
     <div className="background text">
       <h5>Background</h5>
       {background}

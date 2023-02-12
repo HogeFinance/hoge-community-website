@@ -6,7 +6,7 @@ import {ReactComponent as ArrowRight} from "../../icons/arrow-right.svg";
 const Item = ({image, name, text, url}) => (
   <div className="item-eco">
     <div className="image">
-      <img src={image} />
+      <img src={image} alt={image} />
     </div>
 
     <div className="item-eco-inner">
