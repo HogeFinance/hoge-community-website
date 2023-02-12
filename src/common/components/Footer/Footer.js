@@ -32,7 +32,7 @@ const Footer = () => {
           For marketing, reach us at <a href="mailto:marketing@hogefinance.com">marketing@hogefinance.com</a>
         </div>
         <div className="links">
-          <a href={etherscanUrl}>Etherscans</a>
+          <a href={etherscanUrl}>Etherscan</a>
           <a href={coinmarketcapUrl}>CoinMarketCap</a>
           <a href={coingeckoUrl}>CoinGecko</a>
           <a href={dextoolsUrl}>DexTools</a>

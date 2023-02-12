@@ -66,7 +66,8 @@ const HogeProject = () => (
             <div className="optivault" />
             <div className="text">
               <span>HOGE Liquidity is LOCKED via OptiVaults</span>
-              <a href={optivaultUrl}>See The Funds<ArrowRight className="icon" /></a>
+              <a href={optivaultUrl} target="_blank" rel="noreferrer">  
+                See The Funds<ArrowRight className="icon" /></a>
             </div>
           </div>
         </div>
