@@ -14,7 +14,7 @@ import "./NavbarMenu.scss";
 export const NavbarMenu = (props) => {
 
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" className="site-navigation">
+    <Navbar collapseOnSelect expand="md" variant="dark" className="site-navigation">
       <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Brand href="/">

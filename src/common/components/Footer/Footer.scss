@@ -47,7 +47,8 @@
     background: rgba(53, 53, 53, 0.135);
     backdrop-filter: blur(5px);
     align-self: flex-end;
-
+    border-radius: 30px;
+    
     .social {
       font-size: 1.2rem;
       color: white;
@@ -55,7 +56,6 @@
       justify-content: center;
       flex-direction: column;
       height: fit-content;
-      
 
       .text {
         font-size: calc(1vw + 1em);
@@ -65,14 +65,13 @@
 
       .links {
         display: grid;
-        
         gap: 10vw;
         grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-        
         padding-left: 20%;
         padding-right: 20%;
         padding-top: 5%;
         padding-bottom: 5%;
+
         img {
           width: 10vw;
           min-width: 80px;

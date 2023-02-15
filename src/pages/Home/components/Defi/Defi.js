@@ -14,7 +14,7 @@ const Defi = () => {
           <h1 className="subtitle">
             Community Powered.
           </h1>
-          <div className="text">
+          <div className="text text-bg">
             From simple and humble meme token beginnings, to over 20+ projects and protocols deployed and in the works, Hoge continues to culture its mission: utility through community.
           </div>
           <div className="buttons" hidden={true}>

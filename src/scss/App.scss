@@ -108,6 +108,12 @@ a {
   background: linear-gradient(to left, #2B1871 0%, #2094D4 45%, #DC70F0 100%);
 }
 
+.text-bg{
+  background: #14182445;
+  padding-left: 2%;
+  border-radius: 16px;
+}
+
 
 @include tablet {
   body {
