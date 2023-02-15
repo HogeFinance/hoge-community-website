@@ -44,7 +44,7 @@
   }
 
   .social-wrapper {
-    background: rgba(11, 13, 18, 0.9);
+    background: rgba(53, 53, 53, 0.135);
     backdrop-filter: blur(5px);
     align-self: flex-end;
 
@@ -55,22 +55,27 @@
       justify-content: center;
       flex-direction: column;
       height: fit-content;
+      
 
       .text {
-        margin-bottom: 2rem;
+        font-size: calc(1vw + 1em);
+        color: #6d8dee5e;
+        padding-top: 7%;
       }
 
       .links {
-        display: flex;
-        justify-content:space-evenly;
-        a {
-            color: white;
-          }
-        a:hover {
-          color: $link;
-        }
+        display: grid;
+        
+        gap: 10vw;
+        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         img {
           width: 10vw;
+          min-width: 80px;
           max-width: 120px;
         }
       }
