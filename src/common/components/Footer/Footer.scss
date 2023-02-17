@@ -65,17 +65,17 @@
 
       .links {
         display: grid;
-        gap: 10vw;
-        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-        padding-left: 20%;
+        gap: 3vw;
+        grid-template: repeat(1, 1fr) / repeat(6, 1fr);
+        padding-left: 27%;
         padding-right: 20%;
         padding-top: 5%;
         padding-bottom: 5%;
-
+        align-content: center;
         img {
           width: 10vw;
-          min-width: 80px;
-          max-width: 120px;
+          min-width: 60px;
+          max-width: 100px;
         }
       }
     }
