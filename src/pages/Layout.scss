@@ -11,7 +11,7 @@
     .header-wrapper {
       background: rgb(125, 78, 254, 0.4);
       @include mobile {
-        position: absolute;
+        position: relative;
         background: transparent;
       }
     }
