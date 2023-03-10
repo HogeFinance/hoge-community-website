@@ -27,4 +27,4 @@ export const dextoolsUrl = "https://www.dextools.io/app/en/ether/pair-explorer/0
 // vote info
 export const voteBanner = 'https://hogeinc.mypinata.cloud/ipfs/QmTbetMi87zwuTrL8q61r9QoSWRn4uYSYFaiHAqb8ryVWh/2023march-wallet-vote.jpg'
 export const votePDF = 'https://hogeinc.mypinata.cloud/ipfs/QmTbetMi87zwuTrL8q61r9QoSWRn4uYSYFaiHAqb8ryVWh/RevisedWalletStructure.pdf'
-export const voteSnapshot = ''
+export const voteSnapshot = 'https://snapshot.org/#/hogeinc.eth/proposal/0x6d5b83a3c1e02c3fd29d32e95853b5df6eb38d3b9b13863f686e7d52f11966d3'
