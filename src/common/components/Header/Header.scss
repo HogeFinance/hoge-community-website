@@ -10,16 +10,16 @@
     height: 45px;
     line-height: 45px;
   }
+
   .imgBanner {
     display: block;
     position: fixed;
     width: auto;
     height: auto;
     max-width: 100%;
-    max-height: 30%;
+    max-height: 32%;
     margin: auto;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 0%;
   }
 
 }
@@ -34,14 +34,11 @@
       transform: translate(-50%, 0);
     }
   }
+  
   .imgBanner {
-    display: block;
-    position: fixed;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 45%;
-    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
   }
+
 }
 
