@@ -1,0 +1,31 @@
+@import "src/scss/Vars";
+
+.banner-wrapper {
+  position: relative;
+  .imgBanner {
+    position: absolute;
+    height: 150px;
+    right: 0;
+    border-bottom-left-radius: 30px;
+  }
+}
+
+
+@include tablet {
+  .banner-wrapper {
+    position: initial;
+    text-align: right;
+
+    a {
+      width: 100%;
+      display: block;
+      background: rgb(77,0,90,1);
+    }
+
+    .imgBanner {
+      position: initial;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
+

@@ -1,19 +1,10 @@
 @import "src/scss/Vars";
 
 .layout {
-  //@include mobile {
-  //  width: 430px;
-  //  align-items: center;
-  //  position: absolute;
-  //}
 
   &.home {
     .header-wrapper {
       background: rgb(125, 78, 254, 0.4);
-      @include mobile {
-        position: relative;
-        background: transparent;
-      }
     }
   }
   &.gaming {
@@ -30,5 +21,15 @@
   .page {
     width: 100%;
     min-height: 100vh;
+  }
+}
+
+@include mobile {
+  .layout {
+    &.home {
+      .header-wrapper {
+        background: transparent;
+      }
+    }
   }
 }
