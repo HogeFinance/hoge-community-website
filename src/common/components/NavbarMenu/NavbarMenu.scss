@@ -1,9 +1,6 @@
 @import "src/scss/Vars";
 
 .site-navigation {
-  @include mobile {
-    width: 100vw;
-  }
   .container {
     display: flex !important;
     alignment: center;
@@ -18,4 +15,10 @@
 .message {
   font-weight: 400;
   margin: 20px;
+}
+
+@include mobile {
+  .site-navigation {
+    width: 100%;
+  }
 }

@@ -1,7 +1,7 @@
 @import "src/scss/Vars";
 
 .header-wrapper {
-
+  position: relative;
   .buy {
     position: absolute;
     top: 1.5rem;
@@ -14,7 +14,6 @@
 
 @include tablet {
   .header-wrapper {
-
     .buy {
       left: 50%;
       width: 9rem;
@@ -23,3 +22,4 @@
     }
   }
 }
+

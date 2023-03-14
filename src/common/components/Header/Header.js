@@ -1,7 +1,7 @@
 import {menuItems} from "../../../routes";
-import { optiswapUrl } from "common/links";
 import Container from "react-bootstrap/Container";
 import NavbarMenu from "../NavbarMenu/NavbarMenu";
+import {optiswapUrl} from "../../links";
 
 import "./Header.scss";
 

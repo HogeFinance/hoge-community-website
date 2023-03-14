@@ -6,6 +6,7 @@ import Footer from "../common/components/Footer/Footer";
 
 import "./Layout.scss";
 import Roadmap from "../common/components/Roadmap/Roadmap";
+import TopBanner from "../common/components/TopBanner/TopBanner";
 
 const Layout = (props) => {
   const { children } = props;
@@ -15,6 +16,7 @@ const Layout = (props) => {
   return (
     <div className={`layout ${pageName}`}>
       <Header />
+      <TopBanner />
       <div className="content">
         {children}
       </div>

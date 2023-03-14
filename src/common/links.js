@@ -23,3 +23,10 @@ export const etherscanUrl = "https://etherscan.io/token/0xfad45e47083e4607302aa4
 export const coinmarketcapUrl = "https://coinmarketcap.com/currencies/hoge-finance/"
 export const coingeckoUrl = "https://www.coingecko.com/en/coins/hoge-finance"
 export const dextoolsUrl = "https://www.dextools.io/app/en/ether/pair-explorer/0x7fd1de95fc975fbbd8be260525758549ec477960"
+
+// vote info
+const pinataUrl = 'https://hogeinc.mypinata.cloud/ipfs/'
+const votePinataHash = 'QmTbetMi87zwuTrL8q61r9QoSWRn4uYSYFaiHAqb8ryVWh'
+export const voteBanner = pinataUrl + votePinataHash + '/2023march-wallet-vote.jpg'
+export const votePDF = pinataUrl + votePinataHash + '/RevisedWalletStructure.pdf'
+export const voteSnapshot = 'https://snapshot.org/#/hogeinc.eth/proposal/0x6d5b83a3c1e02c3fd29d32e95853b5df6eb38d3b9b13863f686e7d52f11966d3'
