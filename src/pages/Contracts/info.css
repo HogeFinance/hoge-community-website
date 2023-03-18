@@ -16,10 +16,9 @@
 .someBorder {
     border: 5px outset #0d43d8d8;
     border-radius: 30px;
-    padding: 1em;
-    margin: 1em;
+    padding: 0;
+    margin: 10em;
 }
-
 .centered {
     display: flex;
     flex-direction: column;
@@ -28,8 +27,17 @@
     font-size: calc(10px + 2vmin);
 }
 .bumper{
-    margin-top: .7em;
+    margin-top: 1em;
 }
+.contracts {
+    margin: 0;
+    padding: 0;
+}
+.pairs {
+    padding-top: 0em;
+    margin: 0em;
+}
+
 a {
     text-shadow: none;
     font-size: calc(15px + 2vmin);

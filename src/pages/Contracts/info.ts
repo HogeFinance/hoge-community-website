@@ -1,3 +1,32 @@
+
+export const url = {
+    infura : 'https://mainnet.infura.io/v3/'
+}
+
+export const opti = {
+    swap : 'https://optiswap.pro/#swap/0xfAd45E47083e4607302aa43c65fB3106F1cd7607',
+    group : 'https://optiswap.pro/#pool/0xfAd45E47083e4607302aa43c65fB3106F1cd7607',
+    otc : 'https://otcswap.pro/'
+}
+export const scanner = {
+    eth : 'https://etherscan.io/token/',
+    bsc : 'https://bscscan.com/address/',
+    polygon : 'https://polygonscan.com/address/',
+    ftm : 'https://ftmscan.com/token/',
+    xdai : 'https://blockscout.com/xdai/mainnet/address/',
+    okc : 'https://www.oklink.com/en/okc/address/'
+
+}
+
+export const dex = {
+    eth : 'https://v2.info.uniswap.org/pair/',
+    bsc : 'https://pancakeswap.finance/info/pools/',
+    polygon : 'https://app.sushi.com/trident/pool/',
+    ftm : 'https://info.shibafantom.finance/pair/',
+    xdai : 'https://info.honeyswap.org/#/pair/',
+    okc : 'https://okinfo.cherryswap.net/pair/'
+}
+
 export const address = {
     eth: {
         weth: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
