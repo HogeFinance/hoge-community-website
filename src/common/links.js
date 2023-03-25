@@ -29,4 +29,6 @@ const pinataUrl = 'https://hogeinc.mypinata.cloud/ipfs/'
 const votePinataHash = 'QmTbetMi87zwuTrL8q61r9QoSWRn4uYSYFaiHAqb8ryVWh'
 export const voteBanner = pinataUrl + votePinataHash + '/2023march-wallet-vote.jpg'
 export const votePDF = pinataUrl + votePinataHash + '/RevisedWalletStructure.pdf'
-export const voteSnapshot = 'https://snapshot.org/#/hogeinc.eth/proposal/0xff09755ce97767fcb52dc9982d5ada9f6334504eae93c80bc882221bfe74969e'
+const baseSnapshotUrl = 'https://snapshot.org/#/hogeinc.eth/proposal/'
+const snapshotHash = '0xeed51a916c92f54830eec6f10bfb021487cf8bacb5e9b6820273b4215152ea02'
+export const voteSnapshot = baseSnapshotUrl + snapshotHash
