@@ -27,7 +27,8 @@ export const dextoolsUrl = "https://www.dextools.io/app/en/ether/pair-explorer/0
 // vote info
 const pinataUrl = 'https://hogeinc.mypinata.cloud/ipfs/'
 const votePinataHash = 'QmTbetMi87zwuTrL8q61r9QoSWRn4uYSYFaiHAqb8ryVWh'
-export const voteBanner = pinataUrl + votePinataHash + '/2023march-wallet-vote.jpg'
+const voteUpdatedHash = 'QmW2b4C4EpZkQxauMfeYA92iUKZ8EnUcwtsEzR7TVKGtMJ'
+export const voteBanner = pinataUrl + voteUpdatedHash
 export const votePDF = pinataUrl + votePinataHash + '/RevisedWalletStructure.pdf'
 const baseSnapshotUrl = 'https://snapshot.org/#/hogeinc.eth/proposal/'
 const snapshotHash = '0xeed51a916c92f54830eec6f10bfb021487cf8bacb5e9b6820273b4215152ea02'
