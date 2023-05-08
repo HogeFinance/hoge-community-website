@@ -1,18 +1,19 @@
 import Container from "react-bootstrap/Container";
-
 import { voteBanner, voteSnapshot } from "common/links";
-
 import "./TopBanner.scss";
 
-const TopBanner = () => {
+const show = false;
 
-  return (
-    <Container fluid className="banner-wrapper">
-      <a href={voteSnapshot} target="_blank" >
-        <img className="imgBanner" src={voteBanner} alt="banner image" />
-      </a>
-    </Container>
-  );
+const TopBanner = () => {
+  if (show === true) {
+    return (
+      <Container fluid className="banner-wrapper">
+        <a href={voteSnapshot} target="_blank" rel="noreferrer">
+          <img className="imgBanner" src={voteBanner} alt="banner" />
+        </a>
+      </Container>
+    );
+  } else { return <></>}
 };
 
 export default TopBanner;
