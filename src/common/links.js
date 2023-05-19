@@ -26,6 +26,6 @@ export const dextoolsUrl = "https://www.dextools.io/app/en/ether/pair-explorer/0
 
 // vote info
 const pinataUrl = 'https://hogeinc.mypinata.cloud/ipfs/'
-export const voteBanner = pinataUrl + 'QmP6KsSTAmLN64qZtsqDKLDq59PDZvoFy5j9APL24SqpzV'
+export const voteBanner = 'https://i.ibb.co/wcXVsb3/banner.jpg'
 export const votePDF = pinataUrl + 'QmTbetMi87zwuTrL8q61r9QoSWRn4uYSYFaiHAqb8ryVWh/RevisedWalletStructure.pdf'
 export const voteSnapshot = "https://tinyurl.com/HogeVote"
