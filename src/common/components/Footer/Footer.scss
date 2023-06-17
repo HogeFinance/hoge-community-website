@@ -67,7 +67,7 @@
       .links {
         display: grid;
         gap: 3vw;
-        grid-template: auto 1fr / auto 1fr auto;
+        grid-template: "a b c d"; //auto 1fr / auto 1fr auto;
         padding-left: 25%;
         padding-right: 20%;
         padding-top: 5%;
