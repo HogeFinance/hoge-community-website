@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <Container fluid className="header-wrapper">
-      <a href={optiswapUrl} className="btn-secondary buy">BUY $HOGE</a>
+      <a href={optiswapUrl} className="btn-secondary buy">$HOGE @ OptiSwap</a>
       <NavbarMenu menu={menuItems} />
     </Container>
   );

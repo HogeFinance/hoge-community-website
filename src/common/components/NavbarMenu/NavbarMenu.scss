@@ -2,23 +2,30 @@
 
 .site-navigation {
   .container {
-    display: flex !important;
+    display:flex !important;
     alignment: center;
 
     .btn-custom {
       align-self: flex-end;
-      float: right;
-    }
+      float: right;    }
   }
 }
 
 .message {
   font-weight: 400;
-  margin: 20px;
+  margin: 10px;
+}
+
+@include tablet {
+  .site-navigation {
+    width: 100%;
+  }
+  
 }
 
 @include mobile {
   .site-navigation {
     width: 100%;
   }
+  
 }

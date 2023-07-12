@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
-import Button from '../Button/Button'
 
 import Translate from "../../Translate";
 
@@ -14,7 +13,7 @@ import "./NavbarMenu.scss";
 export const NavbarMenu = (props) => {
 
   return (
-    <Navbar collapseOnSelect expand="md" variant="dark" className="site-navigation">
+    <Navbar collapseOnSelect expand="xl" variant="dark" className="site-navigation">
       <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Brand href="/">
