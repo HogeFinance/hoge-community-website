@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     "baseUrl": "src"
   },
   "include": ["src", "src/common/links.json/links.js"]

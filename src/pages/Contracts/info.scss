@@ -1,0 +1,75 @@
+@import "src/scss/Vars";
+
+.style1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(53, 185, 0);
+    text-shadow: 2px 1px #2950bdd8;
+}
+
+.infoDiv {
+    min-height: 50vh;
+    border: 7px inset rgba(13, 67, 216, 0.847);
+    border-radius: 50px;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+}
+
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bumper{
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+a {
+    text-shadow: none;
+}
+
+#ethBlock {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    letter-spacing: 1.3px;
+    color: #babababa;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+#note {
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #babababa;
+    margin: 10px;
+    margin-top: 0;
+    font-size: .6em;
+}
+
+@media screen and (min-width: 1700px) {
+    .infoDiv {
+        flex-direction: row;
+    }
+    .contracts {
+        margin-right: 1em;
+    }
+    .pairs {
+        margin-left: 1em;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 1700px) {
+    .infoDiv {
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .infoDiv {
+        flex-direction: column;
+    }
+
+}
