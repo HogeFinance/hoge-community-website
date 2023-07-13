@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-HelmetProvider.canUseDOM = false;
+
 const helmetContext = {};
-console.log(process.env.REACT_APP_GA_KEY);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
