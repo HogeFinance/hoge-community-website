@@ -12,9 +12,8 @@ import "@fontsource/sora";
 import "./scss/App.scss";
 
 const App = () => {
-
   return (
-    <>
+    <div className="App">
       <Suspense
         fallback={
           <div className="center">
@@ -34,7 +33,7 @@ const App = () => {
           {/*</DataContext.Provider>*/}
         </I18nextProvider>
       </Suspense>
-    </>
+    </div>
   );
 };
 
