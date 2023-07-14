@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const helmetContext = {};
-
+const GA_TRACKING_ID = process.env.REACT_APP_GA_KEY
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,13 +14,13 @@ root.render(
       <div className="application">
         <Helmet > { 
           /* Google Analytics */ `
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWHX9V9TG6"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments)}
             gtag('js', new Date());
 
-            gtag('config', '${process.env.REACT_APP_GA_KEY}');
+            gtag('config', '${GA_TRACKING_ID}');
           </script>
           <meta property="og:title" content="Hoge Finance"/>
         `}</Helmet>
