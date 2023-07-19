@@ -5,8 +5,6 @@ import Home from "./pages/Home/Home";
 import Team from "./pages/Team/Team";
 import Gaming from "./pages/Gaming/Gaming";
 import About from "./pages/About/About";
-import ContractInfo from "./pages/Contracts/Contracts.tsx";
-import ChangeNow from "./pages/ChangeNow/ChangeNow";
 
 export default function SiteRoutes() {
   return (
@@ -19,19 +17,16 @@ export default function SiteRoutes() {
         <Route exact path="/roadmap" element={<About />} />
         <Route exact path="/whitepaper" element={<About />} />
         <Route exact path="/audit" element={<About />} />
-        <Route exact path="/contracts" element={<ContractInfo />} />
-        <Route exact path="/changenow" element={<ChangeNow />} />
+        <Route exact path="/hogenetworks" element={<About />} />
       </Route>
     </Routes>
   );
 }
 
 export const menuItems = [
-  { page: "home" },
-  { page: "contracts" },
-  { page: "about" },
+  { page: "home" },  
   { page: "gaming" },
-  { page: "changenow" },
+  { page: "about" },
   /*
   { page: "team" },
   {
