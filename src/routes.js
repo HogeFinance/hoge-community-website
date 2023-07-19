@@ -28,8 +28,8 @@ export default function SiteRoutes() {
 
 export const menuItems = [
   { page: "home" },
-  { page: "about" },
   { page: "contracts" },
+  { page: "about" },
   { page: "gaming" },
   { page: "changenow" },
   /*

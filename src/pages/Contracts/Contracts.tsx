@@ -77,7 +77,7 @@ export const ContractInfo = () => {
                 {gas}<br/>    
             </h2>
             <div id='note'>* updates every minute *</div>
-            <div className='bumper'>Contracts & Pairs</div>
+            <div className='bumper'>Hoge Contracts & Pairs</div>
             <div className='infoDiv centered'>
                 <div className='contracts'>{contracts}</div>
                 <br/>
