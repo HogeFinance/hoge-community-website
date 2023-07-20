@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import { voteBanner, voteSnapshot } from "common/links";
 import "./TopBanner.scss";
 
-const show = false;
+const show = true;
 
 const TopBanner = () => {
   if (show === true) {
