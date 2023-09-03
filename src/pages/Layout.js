@@ -16,7 +16,7 @@ const Layout = (props) => {
   return (
     <div className={`layout ${pageName}`}>
       <Header />
-      <TopBanner />
+      <TopBanner {...props.config.topBanner} />
       <div className="content">
         {children}
       </div>

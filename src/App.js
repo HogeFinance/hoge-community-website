@@ -8,6 +8,7 @@ import { loadI18nConfig } from "./i18n";
 import Spinner from "./common/components/Spinner/Spinner";
 import Layout from "./pages/Layout";
 
+import Config from "./top-level-config.json";
 import "@fontsource/sora";
 import "./scss/App.scss";
 
@@ -26,7 +27,7 @@ const App = () => {
           {/*<DataContext.Provider value={{ data }}>*/}
             <BrowserRouter>
               <div className="hoge">
-                <Layout>
+                <Layout config={Config}>
                   <SiteRoutes />
                 </Layout>
               </div>
