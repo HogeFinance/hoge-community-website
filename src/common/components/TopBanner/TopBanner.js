@@ -1,11 +1,10 @@
 import Container from "react-bootstrap/Container";
-import { voteBanner, voteSnapshot } from "common/links";
 import "./TopBanner.scss";
+import { useContext } from "react";
 
-const show = false;
+const TopBanner = ({showVote, voteSnapshot, voteBanner}) => {
 
-const TopBanner = () => {
-  if (show === true) {
+  if (showVote) {
     return (
       <Container fluid className="banner-wrapper">
         <a href={voteSnapshot} target="_blank" rel="noreferrer">

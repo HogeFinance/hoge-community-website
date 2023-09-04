@@ -25,8 +25,3 @@ export const coinmarketcapUrl = "https://coinmarketcap.com/currencies/hoge-finan
 export const coingeckoUrl = "https://www.coingecko.com/en/coins/hoge-finance"
 export const dextoolsUrl = "https://www.dextools.io/app/en/ether/pair-explorer/0x7fd1de95fc975fbbd8be260525758549ec477960"
 
-// vote info
-const pinataUrl = 'https://hogeinc.mypinata.cloud/ipfs/'
-export const voteBanner = 'https://i.ibb.co/wcXVsb3/banner.jpg'
-export const votePDF = pinataUrl + 'QmTbetMi87zwuTrL8q61r9QoSWRn4uYSYFaiHAqb8ryVWh/RevisedWalletStructure.pdf'
-export const voteSnapshot = "https://tinyurl.com/HogeVote"
