@@ -8,14 +8,15 @@ import "./Button.scss";
 const Button = (props) => {
 
   return (
-    <BootstrapButton variant="custom">
+    <BootstrapButton variant="custom" onClick={props.onClick}>
       <Translate k={props.k} />
     </BootstrapButton>
   );
 };
 
 Button.propTypes = {
-  k: PropTypes.string
+  k: PropTypes.string,
+  onClick: PropTypes.func
 }
 
 Button.defaultProps = {

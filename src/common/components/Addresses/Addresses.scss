@@ -1,0 +1,52 @@
+@import "src/scss/Vars";
+
+.addresses-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: #121622;
+  margin-bottom: 8rem;
+
+  .addresses {
+    justify-content: center;
+    flex-direction: column;
+
+    .top {
+      display: flex;
+      flex-direction: column;
+      @include pad(0, 2rem);
+    }
+
+    .bot {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .more {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+}
+
+@include tablet {
+  .addresses-wrapper {
+
+    .addresses{
+      @include pad(3rem);
+
+      .list {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
