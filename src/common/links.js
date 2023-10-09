@@ -1,5 +1,6 @@
 export const certikUrl = "https://www.certik.com/projects/hogefinance"
 export const snapshotUrl = "https://snapshot.org/#/hogeinc.eth"
+export const reportUrl = "https://www.hoge.report"
 
 // socials
 export const redditUrl = "https://reddit.com/r/hoge"

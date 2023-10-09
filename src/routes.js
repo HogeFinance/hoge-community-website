@@ -5,12 +5,14 @@ import Home from "./pages/Home/Home";
 import Team from "./pages/Team/Team";
 import Gaming from "./pages/Gaming/Gaming";
 import About from "./pages/About/About";
+import Defi from "./pages/Defi/Defi";
 
 export default function SiteRoutes() {
   return (
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route>
+        <Route exact path="/defi" element={<Defi />} />
         <Route exact path="/gaming" element={<Gaming />} />
         <Route exct path="/team" element={<Team />} />
         <Route exct path="/about" element={<About />} />
@@ -24,7 +26,8 @@ export default function SiteRoutes() {
 }
 
 export const menuItems = [
-  { page: "home" },  
+  { page: "home" },
+  { page: "defi" },
   { page: "gaming" },
   { page: "about" },
   /*

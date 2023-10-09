@@ -1,0 +1,43 @@
+@import "src/scss/Vars";
+
+.item-addr {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .item-addr-inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .name {
+    margin-bottom: 1.5rem;
+    color: #7E4EFF;
+  }
+
+  .text {
+    margin-bottom: 1.5rem;
+  }
+
+  .addr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    .eth {
+      margin: 0;
+    }
+    .btn {
+      margin-left: auto;
+      position: inherit;
+    }
+  }
+
+  a {
+    margin-top: auto;
+    .icon {
+      margin-left: 0.5rem;
+    }
+  }
+}

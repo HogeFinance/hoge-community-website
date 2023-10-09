@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Hoge Contract ETH",
+    "text": "Smart contract is renounced and unchangeable.",
+    "addr": "0xfAd45E47083e4607302aa43c65fB3106F1cd7607",
+    "url": "https://etherscan.io/address/0xfAd45E47083e4607302aa43c65fB3106F1cd7607"
+  },
+  {
+    "name": "Community owned HogeDAO.ETH Wallet",
+    "text": "Any donation into a HogeDAO.eth/CEX Wallet will be used only for CEX listings. A CEX listing is defined as any fees that go directly to the CEX or an equivalent provider that is directly related to the listing and/or operations of a CEX and can include, but not limited to, listing fees, marketing fees, airdrop fees, market making fees and costs regarding liquidity. The only way that funds can be spent out of this wallet, or their purpose changed, is via community vote.",
+    "addr": "0x1920bd8C66ef7F5AC44846413B74CB05f5182B14",
+    "url": "https://etherscan.io/address/0x1920bd8C66ef7F5AC44846413B74CB05f5182B14"
+  },
+  {
+    "name": "Hoge Leadership Wallet",
+    "text": "Any donations into the Leadership Wallet can be used for any purpose as dictated by a majority of the Leadership officers. The Leadership Wallet has a maximum limit of $25,000 USD. Any other funds that go beyond $25,000 USD will be transferred to the Warchest or Marketing Wallets within 30 calendar days. All expenses will be publicly available in a public ledger provided by Leadership upon request within or around 72 hours.",
+    "addr": "0xbF416FAB9865CfD744414f91A98ef6B37566E132",
+    "url": "https://etherscan.io/address/0xbF416FAB9865CfD744414f91A98ef6B37566E132"
+  },
+  {
+    "name": "Hoge Marketing / Legal Wallet",
+    "text": "Any donation into the Legal & Marketing Wallet will be used for only legal and/or marketing expenses as defined by Leadership. Any funds under $1,000 USD can be used every 30 calendar days by a majority vote from Leadership and said expenses will be publicly available in a public ledger provided by Leadership upon request within or around 72 hours. Any funds greater than $1,000 USD or any additional funds requested within the 30 calendar day window must pass a qualified Snapshot vote.",
+    "addr": "0x39Bf3a5e0b91C3631C777508C895489De4d075dF",
+    "url": "https://etherscan.io/address/0x39Bf3a5e0b91C3631C777508C895489De4d075dF"
+  }
+]
