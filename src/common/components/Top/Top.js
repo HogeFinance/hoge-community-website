@@ -10,8 +10,10 @@ const Top = ({title="", text="", link="", linkTitle=""}) => {
         <div className="text">
           {text}
         </div>
-        <a href={link} className="btn snapshot" target="_blank" rel="noreferrer">{linkTitle}</a>
 
+        {link &&
+          <a href={link} className="btn snapshot" target="_blank" rel="noreferrer">{linkTitle}</a>
+        }
       </Container>
       <div className="separator-gradient" />
     </Container>

@@ -26,7 +26,7 @@ const App = () => {
         <I18nextProvider i18n={loadI18nConfig()}>
           {/*<DataContext.Provider value={{ data }}>*/}
             <BrowserRouter>
-              <div className="hoge">
+              <div className="hoge" id="hoge">
                 <Layout config={Config}>
                   <SiteRoutes />
                 </Layout>

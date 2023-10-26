@@ -45,6 +45,11 @@ a {
 
 .container {
   display: flex;
+
+  .image-full {
+    max-width: 100%;
+    margin-bottom: 3rem;
+  }
 }
 
 .btn {
