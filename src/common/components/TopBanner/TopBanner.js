@@ -2,13 +2,13 @@ import Container from "react-bootstrap/Container";
 import "./TopBanner.scss";
 import { useContext } from "react";
 
-const TopBanner = ({showVote, voteSnapshot, voteBanner}) => {
+const TopBanner = ({showBanner, bannerImage, bannerLink}) => {
 
-  if (showVote) {
+  if (showBanner) {
     return (
       <Container fluid className="banner-wrapper">
-        <a href={voteSnapshot} target="_blank" rel="noreferrer">
-          <img className="imgBanner" src={voteBanner} alt="banner" />
+        <a href={bannerLink} target="_blank" rel="noreferrer">
+          <img className="imgBanner" src={bannerImage} alt="banner" />
         </a>
       </Container>
     );
