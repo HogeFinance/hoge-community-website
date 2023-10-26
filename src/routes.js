@@ -30,7 +30,7 @@ export default function SiteRoutes() {
 export const menuItems = [
   { page: "home" },
   { page: "defi" },
-  { page: "print" },
+  /*{ page: "print" },*/
   { page: "changenow" },
   { page: "faq" },
   { page: "about" },
