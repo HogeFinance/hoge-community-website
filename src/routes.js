@@ -18,7 +18,7 @@ export default function SiteRoutes() {
         <Route exact path="/defi" element={<Defi />} />
         {/*<Route exact path="/gaming" element={<Gaming />} />*/}
         {/*<Route exact path="/team" element={<Team />} />*/}
-        <Route exact path="/print" element={<Print />} />
+        {/*<Route exact path="/print" element={<Print />} />*/}
         <Route exact path="/changenow" element={<ChangeNow />} />
         <Route exact path="/faq" element={<Faq />} />
         <Route exact path="/about" element={<About />} />
