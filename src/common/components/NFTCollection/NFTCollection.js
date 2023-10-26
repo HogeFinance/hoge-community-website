@@ -8,7 +8,6 @@ import Item from "./Item";
 
 import "./NFTCollection.scss";
 
-
 const NFTCollection = () => {
 
   const { data, loading, fetchData } = useGetData("data/nfts");
