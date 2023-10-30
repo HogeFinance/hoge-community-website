@@ -27,15 +27,17 @@ const PrintCollection = () => {
         <div className="separator" />
 
         {loading || !data ?
-        <div className="center">
-          <Spinner size="large" />
-        </div> :
-        <>
-          <div className="list">
-            {data.map((item, index) => <Item key={index} {...item} />)}
-          </div>
-        </>
+          <div className="center">
+            <Spinner size="large" />
+          </div> :
+          <>
+            <div className="list">
+              {data.map((item, index) => <Item key={index} {...item} />)}
+            </div>
+          </>
         }
+
+        <div className="separator" />
       </Container>
     </Container>
   );
