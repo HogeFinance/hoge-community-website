@@ -14,7 +14,6 @@
     .top {
       display: flex;
       flex-direction: column;
-      @include pad(0, 2rem);
     }
 
     .bot {
@@ -42,7 +41,6 @@
   .addresses-wrapper {
 
     .addresses{
-      @include pad(3rem);
 
       .list {
         margin-bottom: 0;
