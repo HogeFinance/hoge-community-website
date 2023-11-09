@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.198638e4.css",
-    "main.js": "/static/js/main.fa60dcde.js",
+    "main.css": "/static/css/main.105bb7ac.css",
+    "main.js": "/static/js/main.ddbee405.js",
     "static/js/594.99408cb0.chunk.js": "/static/js/594.99408cb0.chunk.js",
     "static/js/787.749cafa7.chunk.js": "/static/js/787.749cafa7.chunk.js",
     "static/media/hoge_footer.png": "/static/media/hoge_footer.2e68282e6ac9845c5c59.png",
@@ -24,12 +24,12 @@
     "static/media/play.svg": "/static/media/play.926510c254dd630b1601550337e81cc4.svg",
     "static/media/check.svg": "/static/media/check.e36678aad03ee64bf82758dde4e62e59.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.942dd60e6fa687932e161dd064ff1de0.svg",
-    "main.198638e4.css.map": "/static/css/main.198638e4.css.map",
-    "main.fa60dcde.js.map": "/static/js/main.fa60dcde.js.map",
+    "main.105bb7ac.css.map": "/static/css/main.105bb7ac.css.map",
+    "main.ddbee405.js.map": "/static/js/main.ddbee405.js.map",
     "787.749cafa7.chunk.js.map": "/static/js/787.749cafa7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.198638e4.css",
-    "static/js/main.fa60dcde.js"
+    "static/css/main.105bb7ac.css",
+    "static/js/main.ddbee405.js"
   ]
 }
