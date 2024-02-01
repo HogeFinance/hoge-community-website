@@ -7,12 +7,12 @@ import {
   redditUrl, 
   twitterUrl, 
   tiktokUrl,
- // telegramUrl, 
+  telegramUrl, 
   discordUrl,
  // instagramUrl
   } from "common/links";
 import Twitter from '../../icons/twitter.png';
-//import Telegram from '../../icons/telegram.png';
+import Telegram from '../../icons/telegram.png';
 import Discord from '../../icons/discord.png';
 import Reddit from '../../icons/reddit.png';
 //import Instagram from '../../icons/insta.svg'
@@ -60,7 +60,9 @@ const Socials = () => {
         <a href={redditUrl} target="_blank" rel="noreferrer"><img src={Reddit} alt={Reddit} /></a>
         <a href={discordUrl} target="_blank" rel="noreferrer"><img src={Discord} alt={Discord} /></a>
         <a href={twitterUrl} target="_blank" rel="noreferrer"><img src={Twitter} alt={Twitter} /></a>
-        <a href={tiktokUrl} target="_blank" rel="noreferrer"><img src={Tiktok} alt={Tiktok} /></a>
+        <a href={tiktokUrl} target="_blank" rel="noreferrer"><img src={Tiktok} alt={Tiktok} /></a>       
+        <a href={telegramUrl} target="_blank" rel="noreferrer"><img src={Telegram} alt={Telegram} /></a>
+
       </div>
     </Container>
   </Container>
