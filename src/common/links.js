@@ -7,7 +7,7 @@ export const redditUrl = "https://reddit.com/r/hoge"
 export const discordUrl = "https://discord.gg/hoge"
 export const twitterUrl = "https://twitter.com/HogeFinance"
 export const instagramUrl = "https://www.instagram.com/officialhoge/"
-export const telegramUrl = "https://t.me/hogefinance"
+export const telegramUrl = "https://t.me/officialhogecommunity"
 export const tiktokUrl = "https://www.tiktok.com/@hoge.finance"
 
 // optiswap suite
