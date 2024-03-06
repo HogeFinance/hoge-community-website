@@ -34,6 +34,7 @@ export const menuItems = [
   { page: "changenow" },
   { page: "faq" },
   { page: "about" },
+  { k: "Proposals", url: "https://snapshot.org/#/optiswappro.eth" }
   /*
   { page: "team" },
   {

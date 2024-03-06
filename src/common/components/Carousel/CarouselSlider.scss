@@ -9,7 +9,7 @@
   .carousel-container {
     justify-content: center;
     flex-direction: column;
-    @include pad(9rem);
+    @include pad(3rem, 8rem);
   }
 
   .top {

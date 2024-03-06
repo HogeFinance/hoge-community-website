@@ -18,7 +18,7 @@ const HogeProject = () => (
             This ‘utility through community’ is what separates Hoge from the rest. It’s what keeps us building, through winters and bull runs. It’s what makes us rally when called upon. It’s what DeFi was always meant to be, and that’s Hoge.
           </div>
 
-          <a href={"/roadmap"}>See What’s Next! View ‘23 Roadmap<ArrowRight className="icon" /></a>
+          <a href={"#roadmap"}>See What’s Next! View Our Roadmap<ArrowRight className="icon" /></a>
         </div>
         <div className="right">
           <img alt="Hoge" src="/images/hoge_project.png" />
@@ -66,7 +66,7 @@ const HogeProject = () => (
             <div className="optivault" />
             <div className="text text-bg">
               <span>HOGE Liquidity is LOCKED via OptiVaults</span>
-              <a href={optivaultUrl} target="_blank" rel="noreferrer">  
+              <a href={optivaultUrl} target="_blank" rel="noreferrer">
                 See The Funds<ArrowRight className="icon" /></a>
             </div>
           </div>

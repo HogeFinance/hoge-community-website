@@ -1,0 +1,74 @@
+[
+  {
+    "section": "active",
+    "steps": [
+      {
+        "title": "HogeDao.eth",
+        "description": "4.2B $HOGE \n\r 1.5B $HOGE in LP (+ETH)"
+      },
+      {
+        "title": "Hoge.report",
+        "description": "A one stop live dashboard for everything you need to know about the $HOGE token."
+      },
+      {
+        "title": "BonusSwap",
+        "description": "Receive an extra 4.5% $Hoge on each buy! The best place to purchase Hoge when it's loaded."
+      },
+      {
+        "title": "Group LP",
+        "description": "Gamifying the LP providing process for communities! Pinning diamond hands against paper hands."
+      },
+      {
+        "title": "OTCSwap",
+        "description": "Wallet to wallet order book where trades suffer ZERO price impact!"
+      }
+    ]
+  },
+  {
+    "section": "ready",
+    "steps": [
+      {
+        "title": "ActiveLP",
+        "description": "Strategically manage LP to better maintain big price swings and increase overall volume."
+      },
+      {
+        "title": "OptiBuys",
+        "description": "Make a big BUY as a community and gamify the holding process through guaranteed yields!"
+      },
+      {
+        "title": "Marketing Budget",
+        "description": "Over $15,000 to use strategically through a large press release, influencers, and other paid content."
+      },
+      {
+        "title": "OptiGames",
+        "description": "First of its kind Web3 Game architecture that enables ERC20 token integration into arcade game play."
+      }
+    ]
+  },
+  {
+    "section": "soon",
+    "steps": [
+      {
+        "title": "ICP Bridge",
+        "description": "Hoge enters the WEB3 gaming space with its bridge to Internet Computer Protocol. High gas fees are a thing of the past!"
+      },
+      {
+        "title": "HogeAl",
+        "description": "Create insane Hoge art and characters instantly with this custom text to image generator."
+      },
+      {
+        "title": "Bulldog Blast",
+        "description": "A turn based multiplayer death match game! Win ERC20 tokens by defeating your opponents."
+      },
+      {
+        "title": "HogeNFT",
+        "description": "Our iconic Bulldog will now have an NFT collection that brings the vibes."
+      },
+      {
+        "title": "Your Project",
+        "description": "HOGE is a community. Come create with us!"
+      }
+    ]
+  }
+]
+

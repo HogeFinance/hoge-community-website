@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
-import Button from '../Button/Button'
 
 import Translate from "../../Translate";
 
@@ -23,7 +22,10 @@ export const NavbarMenu = (props) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             {props.menu.map((item) => {
-              if (_.has(item, "page")) {
+              if (_.has(item, "url")) {
+                return <UrlItem key={item.k} url={item.url} k={item.k} />
+              }
+              else if (_.has(item, "page")) {
                 return <SimpleItem key={item.page} to={item.page} />
               } else {
                 return <DropItem key={item.k} pages={item.pages} k={item.k} />
@@ -36,6 +38,13 @@ export const NavbarMenu = (props) => {
   );
 };
 
+const UrlItem = ({url, k}) => (
+  <a className={"nav-link"} href={url} target="_blank">
+    <Translate k={k} />
+  </a>
+);
+
+<a className={"nav-link"} href={"https://infortts.com"} target="_blank">Proposals</a>
 const SimpleItem = ({to}) => (
   <NavLink className={"nav-link"} to={to === "home" ? "/" : to} exact={to === "home" ? "true" : "false"}>
     <Translate k={`MENU.${to.toUpperCase()}`} />
