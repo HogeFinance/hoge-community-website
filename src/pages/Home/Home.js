@@ -8,7 +8,7 @@ import Player from "../../common/components/Player/Player";
 export const Home = () => (
   <div className="page home">
     <Defi />
-    <Player url={"./videos/game_1.mp4"} showControls loop />
+    <Player url={"/videos/game_1.mp4"} showControls loop />
     <HogeProject />
     <Roadmap />
     <Music />
