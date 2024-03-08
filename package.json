@@ -1,6 +1,6 @@
 {
   "name": "hoge-website",
-  "homepage": "https://hogefinance.com",
+  "homepage": "https://hogefinance.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,7 +43,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn run build && COPY \"CNAME\" \"./build/CNAME\" && COPY \".\\build\\index.html\" \".\\build\\404.html\"",
+    "predeploy": "npm run build && cp \"CNAME\" \"./build/CNAME\" && cp \".\\build\\index.html\" \".\\build\\404.html\"",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
