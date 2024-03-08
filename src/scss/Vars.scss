@@ -22,3 +22,8 @@ $link: #37CDFC;
   padding-top: $top;
   padding-bottom: $bottom;
 }
+
+@mixin mar($top, $bottom: $top) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}

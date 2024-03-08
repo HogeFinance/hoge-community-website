@@ -3,10 +3,10 @@ import { useLocation } from 'react-router-dom';
 
 import Header from "../common/components/Header/Header";
 import Footer from "../common/components/Footer/Footer";
+import Rider from "../common/components/Rider/Rider";
+import TopBanner from "../common/components/TopBanner/TopBanner";
 
 import "./Layout.scss";
-import Roadmap from "../common/components/Roadmap/Roadmap";
-import TopBanner from "../common/components/TopBanner/TopBanner";
 
 const Layout = (props) => {
   const { children } = props;
@@ -20,7 +20,7 @@ const Layout = (props) => {
       <div className="content">
         {children}
       </div>
-      <Roadmap />
+      <Rider />
       <Footer />
     </div>
   );

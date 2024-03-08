@@ -1,20 +1,92 @@
 @import "src/scss/Vars";
 
 .roadmap-wrapper {
-  background: url("/images/hoge_footer.png") center;
-  background-size: cover;
-  height: 1080px;
-  display: flex;
-  flex-direction: column;
+  background: #1A1F2D;
 
-  a.roadmap {
-    margin: auto;
+  .roadmap {
+    @include pad(4rem);
+    flex-direction: column;
+
+    .sections {
+      display: flex;
+    }
+
+    .section {
+      display: flex;
+      margin: 0 1rem;
+      flex-direction: column;
+    }
+
+    .name {
+      padding: 1rem;
+      text-transform: capitalize;
+      text-align: center;
+      margin-bottom: 1rem;
+      border-radius: 30px;
+
+      &.active {
+        color: #4CAF50;
+      }
+      &.ready {
+        color: #7E4EFF;
+      }
+      &.soon {
+        color: #F2BE22;
+      }
+
+      h4 {
+        margin: 0;
+      }
+    }
+
+    .step {
+      padding: 1rem 2rem;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+
+      h4 {
+        color: #7E4EFF;
+        font-size: 1.5rem;
+      }
+    }
+
+    .verified {
+      color: #FFF;
+      font-size: 1.4rem;
+      width: 2.2rem;
+      height: 2.2rem;
+      line-height: 2.2rem;
+      text-align: center;
+      border-radius: 1.1rem;
+      &.active {
+        background: #4CAF50;
+      }
+      &.ready {
+        background: #7E4EFF;
+      }
+      &.soon {
+        background: #F2BE22;
+      }
+    }
+
+    .content {
+      font-size: 1rem;
+    }
   }
 }
 
 @include tablet {
   .roadmap-wrapper {
-    height: 600px;
+    .roadmap {
+      .sections {
+        flex-direction: column;
+      }
+    }
   }
 }
 

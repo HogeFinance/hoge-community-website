@@ -1,5 +1,7 @@
-{"topBanner":  {
-	"showBanner": true,
-	"bannerImage": "images/Hoge Finance 3rd Birthday Bash.png",
-	"bannerLink": "https://hoge.store"
-}}
+{
+  "topBanner":  {
+    "showBanner": true,
+    "bannerImage": "images/BonusSwapBanner.png",
+    "bannerLink": "https://hoge.store"
+  }
+}

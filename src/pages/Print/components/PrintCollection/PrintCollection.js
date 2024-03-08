@@ -7,6 +7,7 @@ import Spinner from "../../../../common/components/Spinner/Spinner";
 import Item from "./Item";
 
 import "./PrintCollection.scss";
+import ContainerHeader from "../../../../common/components/ContainerHeader/ContainerHeader";
 
 const PrintCollection = () => {
 
@@ -20,11 +21,7 @@ const PrintCollection = () => {
     <Container fluid className="prints-wrapper">
       <Container className="prints">
 
-        <div className="top">
-          <h3>Latest Prints</h3>
-        </div>
-
-        <div className="separator" />
+        <ContainerHeader title="Latest Prints" showSeparator />
 
         {loading || !data ?
           <div className="center">
